@@ -3,7 +3,8 @@
 @tailwind utilities;
 body {
   font-family: "Inter";
-  background: linear-gradient(to right, #802c1d, #b35e38, #1d2657);
+  background: linear-gradient(to bottom, #FF6A00, #E65100, #FFA726);
+  /* bg-gradient-to-b from-orange-500 via-orange-600 to-orange-700 */
 }
 .marquee {
   /* Ensures text doesn't wrap and hides overflow */
@@ -48,6 +49,6 @@ body {
   font-weight: 900;
   color: #39c639; /* Green color */
   -webkit-text-stroke: 3px black; /* Black outline */
-  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.6); /* Shadow effect */
+  /* text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.6); Shadow effect */
   font-family: "Comic Sans MS", "Arial Black", sans-serif;
 }

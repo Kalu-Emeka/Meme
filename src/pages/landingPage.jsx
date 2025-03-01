@@ -16,8 +16,8 @@ function LandingPage () {
             <Navbar/>
             <div className="marquee">
                 <div className="marquee__inner">
-                    <span>BREAKING: MEME WORLD ORDER IS NOW LIVE! LAUNCH YOUR OWN MEME COINS ON MEME WORLD ORDER — </span>
-                    <span>BREAKING: MEME WORLD ORDER IS NOW LIVE! LAUNCH YOUR OWN MEME COINS ON MEME WORLD ORDER — </span>
+                    <span>BREAKING: MEME WORLD ORDER IS NOW LIVE!</span>
+                    <span>BREAKING: MEME WORLD ORDER IS NOW LIVE! </span>
                 </div>
             </div>
             <section>
@@ -49,11 +49,7 @@ function LandingPage () {
                 <h2 className='cartoon-text text-green text-center sm:text-[30px] md:text-[30px] lg:text-[40px]'>About Meme World Order</h2>
                 <div className='grid grid-cols-2 place-items-center mx-[20px] gap-9 sm:grid-cols-1 grid-cols-1 lg:grid-cols-2'>
                     <div className='ml-[30px] sm:ml-[20px] md:ml-[20px] lg:ml-[30px]'>
-                            <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-md sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWO invites you to join a collective journey that blends humor with blockchain innovation.</p>
-                            <div className=''>
-                                <h2 className='cartoon-text mb-[10px] text-green-800 text-[20px] mt-[20px] font-bold sm:text-[30px] md:text-[30px] lg:text-[40px]'>L2 Ecosystem</h2>
-                                <p className='text-[15px] mt-[10px] font-bold'>DEX, Bridge, Block Explorer, Staking, LaunchPad, Developer Grants and much more...</p>    
-                        </div>
+                            <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWO invites you to join a collective journey that blends humor with blockchain innovation.</p>
                         </div>
                         <div className='flex justify-end mr-[80px] flex-row'>
                             <img className=' object-contain' src="/Images/about.png" alt="" />
@@ -65,7 +61,7 @@ function LandingPage () {
                 <div className='flex items-center space-x-8 mx-[50px] place-items-center sm:block md:block lg:flex sm:mx-[50px] mx-[40px] lg:mx-[50px] sm:space-x-0 md:space-x-0 lg:space-x-8'>
                     <div>
                         <div className=''>
-                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-md sm:mb-[20px] md:mb-[20px] lg:mb-0'>
+                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mb-[20px] md:mb-[20px] lg:mb-0'>
                                 <h2><span className='text-[18px] text-green-500 font-bold'>PHASE 1: Launch & Community Ignition</span> </h2>
                                 <div className='flex items-center justify-center mt-[10px]'>
                                     <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Official Launch: Deploy $MWOR on the Solana blockchain and unveil the project to the world.</p>
@@ -93,7 +89,7 @@ function LandingPage () {
                     </div>
                     <div>
                         <div className=''>
-                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-md'>
+                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl'>
                                 <h2><span className='text-[18px] text-green-500 font-bold'>PHASE 2: Staking Rollout & Ecosystem Foundations</span> </h2>
                                 <div className='flex items-center justify-center'>
                                     <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Staking Incentives: Introduce staking with high APYs and boosted early-bird rewards to encourage participation.</p>
@@ -123,7 +119,7 @@ function LandingPage () {
                 <div className='flex justify-center space-x-8 mx-[50px] mt-[20px] sm:block md:block lg:flex sm:mx-[50px] mx-[40px] lg:mx-[50px] sm:space-x-0 md:space-x-0 lg:space-x-8'>
                     <div>
                         <div className=''>
-                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-md sm:mb-[20px] md:mb-[20px] lg:mb-0'>
+                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mb-[20px] md:mb-[20px] lg:mb-0'>
                                 <h2><span className='text-[18px] text-green-500 font-bold'>PHASE 3: Heavy Promotion, NFTs & Deflationary Mechanics</span> </h2>
                                 <div className='flex items-center justify-center mt-[10px]'>
                                     <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Viral Campaigns: Launch meme challenges and community-created content competitions on X to boost $MWOR’s cultural footprint.</p>
@@ -149,7 +145,7 @@ function LandingPage () {
                     </div>
                     <div>
                         <div className=''>
-                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-md'>
+                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl'>
                                 <h2><span className='text-[18px] text-green-500 font-bold'> PHASE 4:</span> </h2>
                                 <div className='flex items-center justify-center mt-[10px]'>
                                     <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Ecosystem Enrichment: Continue integrating Rubic (or similar coss-chain solutions) to enhance interoperability and user experience.</p>
@@ -171,7 +167,7 @@ function LandingPage () {
                 <div className='flex justify-center space-x-6 mx-[50px] my-[20px] sm:block md:block lg:flex sm:mx-[50px] mx-[40px] lg:mx-[50px] sm:space-x-0 md:space-x-0 lg:space-x-8'>
                     <div>
                         <div className=''>
-                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-md sm:mb-[20px] md:mb-[20px] lg:mb-0'>
+                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mb-[20px] md:mb-[20px] lg:mb-0'>
                                 <h2><span className='text-[18px] text-green-500 font-bold'>PHASE 5: Global Expansion & Merch Empire</span> </h2>
                                 <div className='flex items-center justify-center mt-[10px]'>
                                    <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Exclusive Merch Drop: Launch a slick $MWOR merchandise line—think t-shirts, hoodies, and mugs that fans will love.</p>
@@ -190,7 +186,7 @@ function LandingPage () {
                     </div>
                     <div>
                         <div className=''>
-                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-md'>
+                            <div className='flex items-start flex-col border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl'>
                                 <h2><span className='text-[18px] text-green-500 font-bold'>WHY INVEST IN $MWOR</span> </h2>
                                 <div className='flex items-center justify-center mt-[10px]'>
                                     <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Community-Driven: From meme contests to AMAs, we’re building a movement, not just a token.</p>
@@ -222,7 +218,7 @@ function LandingPage () {
             <section id='tokenomics'>
                 <h2 className='cartoon-text mb-[20px] text-green text-center mt-[20px] mb-[30px]'>Tokenomics</h2>
                 <div className="p-6 rounded-lg flex justify-center">
-                    <PieChart width={460} height={460}>
+                    <PieChart width={400} height={400}>
                     <Pie
                         data={data}
                         cx="50%"
@@ -243,17 +239,17 @@ function LandingPage () {
             <section id="team">
                 <h2 className='cartoon-text mb-[20px] text-green text-center mt-[20px] mb-[30px]'>Team</h2>
                 <div className='grid grid-cols-3 gap-8 place-items-center px-[20px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 sm:px-[50px] md:px-[60px] lg:px-[20px]'>
-                    <div className='bg-gray-900 p   x-[30px] flex justify-center flex-col items-center rounded-md shadow-md mr-[30px]'>
+                    <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px]'>
                         <img className='w-[50%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/founder.png" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>Dev</h2>
                         <p className='text-[#94a3b8] mb-[40px]'>Founder</p>
                     </div>
-                    <div className='bg-gray-900 p   x-[30px] flex justify-center flex-col items-center rounded-md shadow-md mr-[30px]'>
+                    <div className='bg-gray-900 p   x-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px]'>
                         <img className='w-[50%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/team1.jpg" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>Glayzz_4T9ne</h2>
-                        <p className='text-[#94a3b8] mb-[40px]'>Community Manager | Graphic Designer</p>
+                        <p className='text-[#94a3b8] mb-[40px] w-[70%] text-center'>Community Manager | Graphic Designer</p>
                     </div>
-                    <div className='bg-gray-900 p   x-[30px] flex justify-center flex-col items-center rounded-md shadow-md mr-[30px]'>
+                    <div className='bg-gray-900 p   x-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px]'>
                         <img className='w-[50%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/social.jpg" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>P Dave</h2>
                         <p className='text-[#94a3b8] mb-[40px]'>Social Media Manager</p>
@@ -261,7 +257,7 @@ function LandingPage () {
                 </div>
             </section>
             <section className='mx-[40px]'>
-                <h2 className='mb-[10px] text-green-800 text-[20px] mt-[20px] font-bold'>Maintaining Order For Memes On Solana</h2>
+                <h2 className='mb-[20px] text-green-800 text-[20px] mt-[20px] font-bold'>Maintaining Order For Memes On Solana</h2>
                 <p className='text-[15px] mt-[10px] font-bold'>Better speed. Better gains. Same delicious spicy flavor.</p>
                 <div className='flex justify-start space-x-1 mt-[10px] items-center'>
                     <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[70%] object-contain cursor-pointer' src="/Images/tg.png" alt="" /></a>
