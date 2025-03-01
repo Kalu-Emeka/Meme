@@ -1,8 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import LandingPage from './pages/landingPage.jsx'
-import ReelPage from './pages/reelPage.jsx';
-import Pools from './pages/pools.jsx';
-import Earns from './pages/earns.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -54,9 +51,6 @@ function App() {
               <Routes>
                   <Route index element={<LandingPage />} />
                   <Route path="/home" element={<LandingPage />} />
-                  <Route path="/reels" element={<ReelPage />} />
-                  <Route path="/pool" element={<Pools />} />
-                  <Route path="/earn" element={<Earns />} />
               </Routes>
             </BrowserRouter>
         </QueryClientProvider>
