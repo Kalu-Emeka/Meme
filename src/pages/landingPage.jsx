@@ -32,16 +32,16 @@ function LandingPage () {
                             />
                         </div>
                     </div>
-                    <div className='sm:mt-[40px] md:mt-[20px] lg:mt-0'>
-                        <h2 className='cartoon-text mb-[10px] text-green mt-0 sm:text-[30px] md:text-[30px] lg:text-[40px]'>MEME WORLD ORDER IS NOW LIVE</h2>
-                        <p className='text-[15px] mt-[10px] font-bold'>Welcome to $MWOR. We are building a full blow movement on Solana</p>
+                    <div className='sm:mt-[40px] md:mt-[20px] lg:mt-0 flex justify-center items-center flex-col'>
+                        <h2 className='cartoon-text sm:text-center md:text-center lg:text-left mb-[10px] text-green mt-0 sm:text-[30px] md:text-[30px] lg:text-[40px]'>MEME WORLD ORDER IS NOW LIVE</h2>
+                        <p className='text-[15px] mt-[10px] font-bold text-center sm:text-center md:text-center lg:text-left'>Welcome to $MWOR. We are building a full blow movement on Solana</p>
                         <div className='flex'>
                             <button className='rounded-[70px] mr-[10px] border-black border-2 px-[20px] py-[10px] border mt-[20px] font-bold text-[19px] cursor-pointer bg-[#2eb335]'><a href="https://dexscreener.com/solana/GjeoEzugvhZYHyALgCLcxcLfbB52vRfz8jXFn26oNqsx" target="_blank" rel="noopener noreferrer">Pump.fun</a></button>
                             <button className='rounded-[70px] border-black border-2 px-[20px] py-[10px] border mt-[20px] font-bold text-[19px] cursor-pointer bg-white'><a href="https://dexscreener.com/solana/GjeoEzugvhZYHyALgCLcxcLfbB52vRfz8jXFn26oNqsx" target="_blank" rel="noopener noreferrer">DexScreener</a></button>
                         </div>
                     </div>
-                    <div className='flex justify-center flex-col-reverse mr-[80px] flex-row'>
-                        <img className='w-[95%] object-contain' src="/Images/hero.png" alt="" />
+                    <div className='flex justify-center items-center flex-col-reverse mr-[80px] flex-row sm:mr-[20px] md:mr-[20px] lg:mr-[80px]'>
+                        <img className='w-[75%] object-contain' src="/Images/hero.png" alt="" />
                     </div>
                 </div>
             </section>
@@ -57,7 +57,7 @@ function LandingPage () {
                     </div>
             </section>
             <section id='roadmap'>
-            <h2 className='cartoon-text mb-[20px] text-green text-center mt-[20px] mb-[30px] sm:text-[30px] md:text-[30px] lg:text-[40px]'>Meme World Order Roadmap</h2>
+            <h2 className='cartoon-text mb-[20px] text-green text-center mt-[20px] mb-[30px] sm:text-[30px] md:text-[30px] lg:text-[40px]'>Roadmap</h2>
                 <div className='flex items-center space-x-8 mx-[50px] place-items-center sm:block md:block lg:flex sm:mx-[50px] mx-[40px] lg:mx-[50px] sm:space-x-0 md:space-x-0 lg:space-x-8'>
                     <div>
                         <div className=''>
@@ -217,8 +217,8 @@ function LandingPage () {
             </section>
             <section id='tokenomics'>
                 <h2 className='cartoon-text mb-[20px] text-green text-center mt-[20px] mb-[30px]'>Tokenomics</h2>
-                <div className="p-6 rounded-lg flex justify-center">
-                    <PieChart width={400} height={400}>
+                <div className="pr-[80px] rounded-lg flex justify-center items-center sm:pr-[40px]">
+                    <PieChart width={500} height={500}>
                     <Pie
                         data={data}
                         cx="50%"
@@ -226,6 +226,7 @@ function LandingPage () {
                         outerRadius={200}
                         dataKey="value"
                         label
+                        className='mb-[30px]'
                     >
                         {data.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={entry.color} />
@@ -238,18 +239,18 @@ function LandingPage () {
             </section>
             <section id="team">
                 <h2 className='cartoon-text mb-[20px] text-green text-center mt-[20px] mb-[30px]'>Team</h2>
-                <div className='grid grid-cols-3 gap-8 place-items-center px-[20px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 sm:px-[50px] md:px-[60px] lg:px-[20px]'>
-                    <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px]'>
+                <div className='grid grid-cols-3 gap-8 place-items-center px-[20px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 sm:px-[40px] md:px-[60px] lg:px-[20px]'>
+                    <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
                         <img className='w-[50%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/founder.png" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>Dev</h2>
                         <p className='text-[#94a3b8] mb-[40px]'>Founder</p>
                     </div>
-                    <div className='bg-gray-900 p   x-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px]'>
+                    <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
                         <img className='w-[50%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/team1.jpg" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>Glayzz_4T9ne</h2>
                         <p className='text-[#94a3b8] mb-[40px] w-[70%] text-center'>Community Manager | Graphic Designer</p>
                     </div>
-                    <div className='bg-gray-900 p   x-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px]'>
+                    <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
                         <img className='w-[50%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/social.jpg" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>P Dave</h2>
                         <p className='text-[#94a3b8] mb-[40px]'>Social Media Manager</p>
@@ -260,11 +261,11 @@ function LandingPage () {
                 <h2 className='mb-[20px] text-green-800 text-[20px] mt-[20px] font-bold'>Maintaining Order For Memes On Solana</h2>
                 <p className='text-[15px] mt-[10px] font-bold'>Better speed. Better gains. Same delicious spicy flavor.</p>
                 <div className='flex justify-start space-x-1 mt-[10px] items-center'>
-                    <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[70%] object-contain cursor-pointer' src="/Images/tg.png" alt="" /></a>
-                    <a href="https://www.reddit.com/u/mworder2024/s/eJTNkOVjg7" target="_blank" rel="noopener noreferrer"><img className='w-[50%] object-contain cursor-pointer' src="/Images/reddit.png" alt="" /></a>
-                    <a href="https://twitter.com/mworder2024" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer' src="/Images/x.png" alt="" /></a>
-                    <a href="https://discord.com/invite/H7eCbTZKHu" target="_blank" rel="noopener noreferrer"><img className='w-[70%] object-contain cursor-pointer' src="/Images/discord.png" alt="" /></a>
-                    <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[50%] object-contain cursor-pointer' src="/Images/medium.png" alt="" /></a>
+                    <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[50%] object-contain cursor-pointer' src="/Images/tg.png" alt="" /></a>
+                    <a href="https://www.reddit.com/u/mworder2024/s/eJTNkOVjg7" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer' src="/Images/reddit.png" alt="" /></a>
+                    <a href="https://twitter.com/mworder2024" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer' src="/Images/x.png" alt="" /></a>
+                    <a href="https://discord.com/invite/H7eCbTZKHu" target="_blank" rel="noopener noreferrer"><img className='w-[40%] object-contain cursor-pointer' src="/Images/discord.png" alt="" /></a>
+                    <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer' src="/Images/medium.png" alt="" /></a>
                 </div>
             </section>
         </>
