@@ -261,7 +261,7 @@ function LandingPage () {
                 </div>
             </section>
             <section className='mx-[40px]'>
-                <h2 className='mb-[10px] text-green-800 text-[20px] mt-[19px] font-bold'>Maintaining Order For Memes On Solana</h2>
+                <h2 className='mb-[10px] text-green-800 text-[20px] mt-[20px] font-bold'>Maintaining Order For Memes On Solana</h2>
                 <p className='text-[15px] mt-[10px] font-bold'>Better speed. Better gains. Same delicious spicy flavor.</p>
                 <div className='flex justify-start space-x-1 mt-[10px] items-center'>
                     <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[70%] object-contain cursor-pointer' src="/Images/tg.png" alt="" /></a>
