@@ -62,7 +62,7 @@ function LandingPage () {
                             <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWO invites you to join a collective journey that blends humor with blockchain innovation.</p>
                         </div>
                         <div className='flex justify-end mr-[80px] flex-row'>
-                            <img className=' object-contain' src="/Images/about.png" alt="" />
+                            <img className='w-[80%] object-contain' src="/Images/about.png" alt="" />
                         </div>
                     </div>
             </section>
