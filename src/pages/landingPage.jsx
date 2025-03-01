@@ -6,9 +6,9 @@ const data = [
     { name: "Liquidity", value: 17.5, color: "#2ECC71" }, // Green
     { name: "Team", value: 7.5, color: "#3498DB" }, // Blue
     { name: "Ecosystem", value: 7.5, color: "#8E44AD" }, // Purple
-    { name: "Marketing", value: 10, color: "#E91E63" }, // Pink
-    { name: "Early Investors", value: 7.5, color: "#FF5733" }, // Pink
-    { name: "Free Supply", value: 7.5, color: "#F39C12" }, // Pink
+    { name: "Marketing", value: 10, color: "" }, // Pink
+    { name: "Early Investors", value: 7.5, color: "#A52A2A" }, // Pink
+    { name: "Free Supply", value: 7.5, color: "#1ABC9C" }, // Pink
 ];    
 import {
     Accordion,

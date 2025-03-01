@@ -48,7 +48,7 @@ body {
   font-size: 40px;
   font-weight: 900;
   font-weight: bold;
-  color: #39c639; /* Green color */
+  color: rgb(9, 9, 80); /* Green color */
   /* -webkit-text-stroke: 3px black; Black outline */
   /* text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.6); Shadow effect */
   font-family: "Comic Sans MS", "Arial Black", sans-serif;
