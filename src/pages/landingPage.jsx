@@ -58,11 +58,11 @@ function LandingPage () {
             <section id='about'>
                 <h2 className='cartoon-text text-green text-center sm:text-[30px] md:text-[30px] lg:text-[40px]'>About Meme World Order</h2>
                 <div className='grid grid-cols-2 place-items-center mx-[20px] gap-9 sm:grid-cols-1 grid-cols-1 lg:grid-cols-2'>
-                    <div className='ml-[30px] sm:ml-[20px] md:ml-[20px] lg:ml-[30px]'>
+                    <div className='ml-[30px] sm:ml-[0px] md:ml-[0px] lg:ml-[30px]'>
                             <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWO invites you to join a collective journey that blends humor with blockchain innovation.</p>
                         </div>
                         <div className='flex justify-end mr-[80px] flex-row mt-[20px]'>
-                            <img className='w-[70%] object-contain rounded-lg' src="/Images/about.jpg" alt="" />
+                            <img className='w-[70%] object-contain rounded-lg sm:w-[80%] md:w-[80%]' src="/Images/about.jpg" alt="" />
                         </div>
                     </div>
             </section>
@@ -263,7 +263,7 @@ function LandingPage () {
                         <p className='text-[#94a3b8] mb-[20px] w-[70%] text-center'>Community Manager  Graphic Designer</p>
                         <div className='grid grid-cols-2 place-items-center space-x-4'>
                             <a className='mb-[20px] flex justify-end' href="https://t.me/@Glayzz_4T9ne_XD" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain rounded-md border-2 border-blue-700' src="/Images/tg.jpg" alt="" /></a>
-                            <a className='mb-[20px]' href="https://x.com/glayzz_4t9ne_bk?s=21" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-blue-700' src="/Images/twiiter.png" alt="" /></a>
+                            <a className='mb-[20px]' href="https://x.com/glayzz_4t9ne_bk?s=21" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
                         </div>
                     </div>
                     <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
@@ -272,7 +272,7 @@ function LandingPage () {
                         <p className='text-[#94a3b8] mb-[20px]'>Social Media Manager</p>
                         <div className='grid grid-cols-2 place-items-center space-x-4'>
                             <a className='mb-[20px] flex justify-end' href="https://t.me/@JaceD23" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain rounded-md border-2 border-blue-700' src="/Images/tg.jpg" alt="" /></a>
-                            <a className='mb-[20px]' href="https://x.com/JaydenDavid23?t=tIfLF80pmxonn74smYRinw&s=09" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-blue-700' src="/Images/twiiter.png" alt="" /></a>
+                            <a className='mb-[20px]' href="https://x.com/JaydenDavid23?t=tIfLF80pmxonn74smYRinw&s=09" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -367,22 +367,22 @@ function LandingPage () {
                     <div className='bg-gray-900 px-[20px] rounded-md'>
                         <h2 className='mb-[20px] text-green-800 text-[20px] mt-[20px] font-bold'>Maintaining Order For Memes On Solana</h2>
                         <p className='text-[15px] my-[30px] font-bold text-white text-center'>Perfect order, Real value and Utility, Market takeover</p>
-                        <div className='flex justify-center py-[20px]'>
+                        <div className='flex justify-center items-center py-[20px] sm:pl-[40px] md:pl-[40px] lg:pl-[70px]'>
                             <div className=''>
-                                <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[27%] mb-[20px] border-2 border-blue-700' src="/Images/tg.jpg" alt="" /></a>
-                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[27%] rounded-md border-2 border-blue-700' src="/Images/medium.jpg" alt="" /></a>
+                                <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[29%] mb-[20px] border-2 border-blue-700' src="/Images/tg.jpg" alt="" /></a>
+                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md border-2 border-blue-700' src="/Images/medium.jpg" alt="" /></a>
                             </div>
                             <div>
-                                <a href="https://www.reddit.com/u/mworder2024/s/eJTNkOVjg7" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md mb-[20px] sm:w-[50%] md:w-[50%] lg:w-[27%] border-2 border-blue-700' src="/Images/reddit.jpg" alt="" /></a>
-                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[27%] mr-[120px] ml-[25px] rounded-md sm:ml-0 md:ml-0 lg:ml-25 sm:mr-[20px] md:mr-[20px] lg:mr-[20px] border-2 border-blue-700' src="/Images/fb.png" alt="" /></a>
+                                <a href="https://www.reddit.com/u/mworder2024/s/eJTNkOVjg7" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md mb-[20px] sm:w-[50%] md:w-[50%] lg:w-[29%] border-2 border-blue-700' src="/Images/reddit.jpg" alt="" /></a>
+                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] mr-[120px] ml-[25px] rounded-md sm:ml-0 md:ml-0 lg:ml-25 sm:mr-[20px] md:mr-[20px] lg:mr-[20px] border-2 border-blue-700' src="/Images/fb.png" alt="" /></a>
                             </div>
                             <div>
-                                <a href="https://twitter.com/mworder2024" target="_blank" rel="noopener noreferrer"><img className='w-[40%] object-contain cursor-pointer rounded-md mr-[80px] sm:mr-[20px] md:mr-[20px] lg:mr-[20px] sm:w-[50%] mb-[20px] md:w-[50%] lg:w-[27%] border-2 border-blue-700' src="/Images/twiiter.png" alt="" /></a>
-                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[27%] rounded-md sm:ml-[0px] md:ml-[0px] lg:ml-[0px] border-2 border-blue-700' src="/Images/tik.jpg" alt="" /></a>
+                                <a href="https://twitter.com/mworder2024" target="_blank" rel="noopener noreferrer"><img className='w-[40%] object-contain cursor-pointer rounded-md mr-[80px] sm:mr-[20px] md:mr-[20px] lg:mr-[20px] sm:w-[50%] mb-[20px] md:w-[50%] lg:w-[29%] border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
+                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md sm:ml-[0px] md:ml-[0px] lg:ml-[0px] border-2 border-blue-700' src="/Images/tik.jpg" alt="" /></a>
                             </div>
                             <div>
-                                <a href="https://discord.com/invite/H7eCbTZKHu" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[27%] mb-[20px] border-2 border-blue-700' src="/Images/discord.jpg" alt="" /></a>
-                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[27%] rounded-md mr-[150px] sm:mr-[20px] md:mr-[20px] lg:ml-[0px] border-2 border-blue-700' src="/Images/instagram.jpg" alt="" /></a>
+                                <a href="https://discord.com/invite/H7eCbTZKHu" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[29%] mb-[20px] border-2 border-blue-700' src="/Images/discord.jpg" alt="" /></a>
+                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md mr-[150px] sm:mr-[20px] md:mr-[20px] lg:ml-[0px] border-2 border-blue-700' src="/Images/instagram.jpg" alt="" /></a>
                             </div>
                         </div>
                     </div>
