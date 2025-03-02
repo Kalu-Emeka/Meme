@@ -284,7 +284,7 @@ function LandingPage () {
                         <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                             <div className='bg-gray-900 rounded-md px-[30px] py-[30px]'>
                                 <h2 className='text-white font-bold mb-[20px]'>1. CREATE A WALLET</h2>
-                                <p className='text-white'>Set up a Solana-compatible wallet (e.g., Phantom or Solflare) that supports $MWO. Remember to keep your seed phrase and private keys secure.</p>
+                                <p className='text-white'>Set up a Solana-compatible wallet (e.g., Phantom or Solflare) that supports $MWOR. Remember to keep your seed phrase and private keys secure.</p>
                             </div>
                             <div className='bg-gray-900 rounded-md px-[20px] py-[20px]'>
                                 <h2 className='text-white font-bold mb-[20px]'>2. Participate in the Fair Launch</h2>
@@ -294,11 +294,11 @@ function LandingPage () {
                         <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                             <div className='bg-gray-900 rounded-md px-[20px] py-[20px] mt-[10px]'>
                                 <h2 className='text-white font-bold mb-[20px]'>3. Stake for Rewards</h2>
-                                <p className='text-white'>Once you have your $MWO tokens, consider staking them to earn additional rewards. Check out our staking page (if applicable) for more information on how to maximize your $MWO holdings.</p>
+                                <p className='text-white'>Once you have your $MWO tokens, consider staking them to earn additional rewards. Check out our staking page (if applicable) for more information on how to maximize your $MWOR holdings.</p>
                             </div>
                             <div className='bg-gray-900 rounded-md px-[20px] py-[20px] mt-[10px]'>
-                                <h2 className='text-white font-bold mb-[20px]'>4. You are now a $MWO holder!</h2>
-                                <p className='text-white'>Welcome to the #MWO Community.</p>
+                                <h2 className='text-white font-bold mb-[20px]'>4. You are now a $MWOR holder!</h2>
+                                <p className='text-white'>Welcome to the #MWOR Community.</p>
                             </div>
                         </div>
                     </div>
