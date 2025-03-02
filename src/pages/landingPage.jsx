@@ -61,8 +61,8 @@ function LandingPage () {
                     <div className='ml-[30px] sm:ml-[0px] md:ml-[0px] lg:ml-[30px]'>
                             <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWO invites you to join a collective journey that blends humor with blockchain innovation.</p>
                         </div>
-                        <div className='flex justify-end mr-[80px] flex-row mt-[20px]'>
-                            <img className='w-[70%] object-contain rounded-lg sm:w-[80%] md:w-[80%]' src="/Images/about.jpg" alt="" />
+                        <div className='flex justify-center flex-row mt-[20px]'>
+                            <img className='w-[70%] object-contain rounded-lg sm:w-[80%] md:w-[80%] lg:w-[70%]' src="/Images/about.jpg" alt="" />
                         </div>
                     </div>
             </section>
@@ -365,7 +365,7 @@ function LandingPage () {
             <section className='mx-[40px]'>
                 <div className='grid grid-cols-2 gap-4 place-items-center mt-[20px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                     <div className='bg-gray-900 px-[20px] rounded-md'>
-                        <h2 className='mb-[20px] text-green-800 text-[20px] mt-[20px] font-bold'>Maintaining Order For Memes On Solana</h2>
+                        <h2 className='mb-[20px] text-green-800 text-[20px] mt-[20px] font-bold text-center'>Maintaining Order For Memes On Solana</h2>
                         <p className='text-[15px] my-[30px] font-bold text-white text-center'>Perfect order, Real value and Utility, Market takeover</p>
                         <div className='flex justify-center items-center py-[20px] sm:pl-[40px] md:pl-[40px] lg:pl-[70px]'>
                             <div className=''>
