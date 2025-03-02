@@ -314,7 +314,7 @@ function LandingPage () {
                         <AccordionItem>
                             <AccordionItemHeading>
                                 <AccordionItemButton className='text-[20px] text-white bg-gray-900 px-[40px] py-[20px] rounded-md sm:text-[18px] md:text-[18px] lg:text-[20px]'>
-                                    What is $MWO?
+                                    What is $MWOR?
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
@@ -326,7 +326,7 @@ function LandingPage () {
                         <AccordionItem>
                             <AccordionItemHeading>
                                 <AccordionItemButton className='text-[20px] text-white bg-gray-900 px-[40px] py-[20px] rounded-md sm:text-[18px] md:text-[18px] lg:text-[20px]'>
-                                    Where can I buy $MWO?
+                                    Where can I buy $MWOR?
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
@@ -338,7 +338,7 @@ function LandingPage () {
                         <AccordionItem>
                             <AccordionItemHeading>
                                 <AccordionItemButton className='text-[20px] text-white bg-gray-900 px-[40px] py-[20px] rounded-md sm:text-[18px] md:text-[18px] lg:text-[20px]'>
-                                    Is $MWO secure?
+                                    Is $MWOR secure?
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
@@ -350,7 +350,7 @@ function LandingPage () {
                         <AccordionItem>
                             <AccordionItemHeading>
                                 <AccordionItemButton className='text-[20px] text-white bg-gray-900 px-[40px] py-[20px] rounded-md sm:text-[17px] md:text-[17px] lg:text-[20px]'>
-                                    How can I contact the $MWO team?
+                                    How can I contact the $MWOR team?
                                 </AccordionItemButton>
                             </AccordionItemHeading>
                             <AccordionItemPanel>
