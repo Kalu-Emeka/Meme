@@ -365,9 +365,9 @@ function LandingPage () {
             <section className='mx-[40px]'>
                 <div className='grid grid-cols-2 gap-4 place-items-center mt-[20px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                     <div className='bg-gray-900 px-[20px] rounded-md'>
-                        <h2 className='mb-[20px] text-green-800 text-[20px] mt-[20px] font-bold text-center'>Maintaining Order For Memes On Solana</h2>
-                        <p className='text-[15px] my-[30px] font-bold text-white text-center'>Perfect order, Real value and Utility, Market takeover</p>
-                        <div className='flex justify-center items-center py-[20px] sm:pl-[40px] md:pl-[40px] lg:pl-[70px]'>
+                        <h2 className='mb-[10px] text-green-800 text-[20px] mt-[20px] font-bold text-center'>Maintaining Order For Memes On Solana</h2>
+                        <p className='text-[15px] my-[15px] font-bold text-white text-center'>Perfect order, Real value and Utility, Market takeover</p>
+                        <div className='flex justify-center items-center pb-[35px] pt-[10px] sm:pl-[40px] md:pl-[40px] lg:pl-[70px]'>
                             <div className=''>
                                 <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[29%] mb-[20px] border-2 border-white' src="/Images/tg.jpg" alt="" /></a>
                                 <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md border-2 border-white' src="/Images/medium.jpg" alt="" /></a>
