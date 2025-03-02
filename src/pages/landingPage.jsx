@@ -263,7 +263,7 @@ function LandingPage () {
                         <p className='text-[#94a3b8] mb-[20px] w-[70%] text-center'>Community Manager  Graphic Designer</p>
                         <div className='grid grid-cols-2 place-items-center space-x-4'>
                             <a className='mb-[20px] flex justify-end' href="https://t.me/@Glayzz_4T9ne_XD" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain rounded-md border-2 border-blue-700' src="/Images/tg.jpg" alt="" /></a>
-                            <a className='mb-[20px]' href="https://x.com/glayzz_4t9ne_bk?s=21" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
+                            <a className='mb-[20px]' href="https://x.com/glayzz_4t9ne_bk?s=21" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-blue-700' src="/Images/twiiter.png" alt="" /></a>
                         </div>
                     </div>
                     <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
@@ -272,7 +272,7 @@ function LandingPage () {
                         <p className='text-[#94a3b8] mb-[20px]'>Social Media Manager</p>
                         <div className='grid grid-cols-2 place-items-center space-x-4'>
                             <a className='mb-[20px] flex justify-end' href="https://t.me/@JaceD23" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain rounded-md border-2 border-blue-700' src="/Images/tg.jpg" alt="" /></a>
-                            <a className='mb-[20px]' href="https://x.com/JaydenDavid23?t=tIfLF80pmxonn74smYRinw&s=09" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
+                            <a className='mb-[20px]' href="https://x.com/JaydenDavid23?t=tIfLF80pmxonn74smYRinw&s=09" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-blue-700' src="/Images/twiiter.png" alt="" /></a>
                         </div>
                     </div>
                 </div>
@@ -377,7 +377,7 @@ function LandingPage () {
                                 <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] mr-[120px] ml-[25px] rounded-md sm:ml-0 md:ml-0 lg:ml-25 sm:mr-[20px] md:mr-[20px] lg:mr-[20px] border-2 border-blue-700' src="/Images/fb.png" alt="" /></a>
                             </div>
                             <div>
-                                <a href="https://twitter.com/mworder2024" target="_blank" rel="noopener noreferrer"><img className='w-[40%] object-contain cursor-pointer rounded-md mr-[80px] sm:mr-[20px] md:mr-[20px] lg:mr-[20px] sm:w-[50%] mb-[20px] md:w-[50%] lg:w-[29%] border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
+                                <a href="https://twitter.com/mworder2024" target="_blank" rel="noopener noreferrer"><img className='w-[40%] object-contain cursor-pointer rounded-md mr-[80px] sm:mr-[20px] md:mr-[20px] lg:mr-[20px] sm:w-[50%] mb-[20px] md:w-[50%] lg:w-[29%] border-2 border-blue-700' src="/Images/twiiter.png" alt="" /></a>
                                 <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md sm:ml-[0px] md:ml-[0px] lg:ml-[0px] border-2 border-blue-700' src="/Images/tik.jpg" alt="" /></a>
                             </div>
                             <div>
