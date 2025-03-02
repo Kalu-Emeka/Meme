@@ -59,7 +59,7 @@ function LandingPage () {
                 <h2 className='cartoon-text text-green text-center sm:text-[30px] md:text-[30px] lg:text-[40px]'>About Meme World Order</h2>
                 <div className='grid grid-cols-2 place-items-center mx-[20px] gap-9 sm:grid-cols-1 grid-cols-1 lg:grid-cols-2'>
                     <div className='ml-[30px] sm:ml-[0px] md:ml-[0px] lg:ml-[30px]'>
-                            <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWO invites you to join a collective journey that blends humor with blockchain innovation.</p>
+                            <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWOR invites you to join a collective journey that blends humor with blockchain innovation.</p>
                         </div>
                         <div className='flex justify-center flex-row mt-[20px]'>
                             <img className='w-[70%] object-contain rounded-lg sm:w-[80%] md:w-[80%] lg:w-[70%]' src="/Images/about.jpg" alt="" />
@@ -288,13 +288,13 @@ function LandingPage () {
                             </div>
                             <div className='bg-gray-900 rounded-md px-[20px] py-[20px]'>
                                 <h2 className='text-white font-bold mb-[20px]'>2. Participate in the Fair Launch</h2>
-                                <p className='text-white'>Head over to pump.fun to be part of the fair launch. There’s no presale—everyone obtains $MWO tokens at the same time, ensuring equal opportunity for all.</p>
+                                <p className='text-white'>Head over to pump.fun to be part of the fair launch. There’s no presale—everyone obtains $MWOR tokens at the same time, ensuring equal opportunity for all.</p>
                             </div>
                         </div>
                         <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                             <div className='bg-gray-900 rounded-md px-[20px] py-[20px] mt-[10px]'>
                                 <h2 className='text-white font-bold mb-[20px]'>3. Stake for Rewards</h2>
-                                <p className='text-white'>Once you have your $MWO tokens, consider staking them to earn additional rewards. Check out our staking page (if applicable) for more information on how to maximize your $MWOR holdings.</p>
+                                <p className='text-white'>Once you have your $MWOR tokens, consider staking them to earn additional rewards. Check out our staking page (if applicable) for more information on how to maximize your $MWOR holdings.</p>
                             </div>
                             <div className='bg-gray-900 rounded-md px-[20px] py-[20px] mt-[10px]'>
                                 <h2 className='text-white font-bold mb-[20px]'>4. You are now a $MWOR holder!</h2>
@@ -319,7 +319,7 @@ function LandingPage () {
                             </AccordionItemHeading>
                             <AccordionItemPanel>
                                 <p className='text-white text-[18px] sm:text-[16px] md:text-[16px] lg:text-[18px]'>
-                                    $MWO is a meme-centric digital asset on Solana, aiming to blend fun and profitability by fostering a spirited community and offering intuitive staking mechanisms.
+                                    $MWOR is a meme-centric digital asset on Solana, aiming to blend fun and profitability by fostering a spirited community and offering intuitive staking mechanisms.
                                 </p>
                             </AccordionItemPanel>
                         </AccordionItem>
@@ -331,7 +331,7 @@ function LandingPage () {
                             </AccordionItemHeading>
                             <AccordionItemPanel>
                                 <p className='text-white text-[18px] sm:text-[16px] md:text-[16px] lg:text-[18px]'>
-                                    You can purchase $MWO through the fair launch process on pump.fun. Eventually, $MWO may appear on various decentralized and centralized exchanges, offering extra ways to trade or acquire more tokens.
+                                    You can purchase $MWOR through the fair launch process on pump.fun. Eventually, $MWOR may appear on various decentralized and centralized exchanges, offering extra ways to trade or acquire more tokens.
                                 </p>
                             </AccordionItemPanel>
                         </AccordionItem>
