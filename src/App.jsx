@@ -8,7 +8,6 @@ import { defaultWagmiConfig } from '@web3modal/wagmi/react/config'
 import { WagmiProvider } from 'wagmi'
 import { arbitrum, mainnet, polygon } from 'wagmi/chains'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { useState, useEffect } from "react";
 
 // 0. Setup queryClient
 const queryClient = new QueryClient()
@@ -42,20 +41,6 @@ createWeb3Modal({
 AOS.init();
 
 function App() {
-  const [bgColor, setBgColor] = useState("#ff6a00");
-
-  useEffect(() => {
-    const colors = ["#ff6a00", "#e65100", "#ffa726", "#ff9800"];
-    let index = 0;
-
-    const interval = setInterval(() => {
-      index = (index + 1) % colors.length; // Loop through colors
-      setBgColor(colors[index]);
-    }, 3000); // Change color every 3 seconds
-
-    return () => clearInterval(interval); // Cleanup on unmount
-  }, []);
-
   return (
     <>
       <WagmiProvider config={config}>

@@ -1,13 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@keyframes backgroundAnimation {
-  0% { background-color: #ff6a00; }
-  25% { background-color: #e65100; }
-  50% { background-color: #ffa726; }
-  75% { background-color: #ff9800; }
-  100% { background-color: #ff6a00; } /* Loop back to the first color */
-}
 body {
   font-family: "Inter";
   animation: backgroundAnimation 10s infinite alternate ease-in-out;
@@ -55,8 +48,19 @@ body {
   font-size: 40px;
   font-weight: 900;
   font-weight: bold;
-  color: rgb(9, 9, 80); /* Green color */
+  color: rgb(173, 209, 207); /* Green color */
   /* -webkit-text-stroke: 3px black; Black outline */
   /* text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.6); Shadow effect */
   font-family: "Comic Sans MS", "Arial Black", sans-serif;
+}
+#video-header {
+  object-fit: cover;
+  object-position: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  visibility: visible;
+  z-index: -1;
 }
