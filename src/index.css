@@ -1,9 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@keyframes backgroundAnimation {
+  0% { background-color: #ff6a00; }
+  25% { background-color: #e65100; }
+  50% { background-color: #ffa726; }
+  75% { background-color: #ff9800; }
+  100% { background-color: #ff6a00; } /* Loop back to the first color */
+}
 body {
   font-family: "Inter";
-  background: linear-gradient(to bottom, #FF6A00, #E65100, #FFA726);
+  animation: backgroundAnimation 10s infinite alternate ease-in-out;
   /* bg-gradient-to-b from-orange-500 via-orange-600 to-orange-700 */
 }
 .marquee {

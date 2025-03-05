@@ -1,5 +1,6 @@
 import Navbar from '../components/nav.jsx';
 import React from "react";
+import Swipers from '../components/swiper.jsx';
 import { PieChart, Pie, Cell, Legend, Tooltip } from "recharts";
 const data = [
     { name: "Staking", value: 15, color: "#FFD700" }, // Yellow
@@ -59,14 +60,18 @@ function LandingPage () {
                 <h2 className='cartoon-text text-green text-center sm:text-[30px] md:text-[30px] lg:text-[40px]'>About Meme World Order</h2>
                 <div className='grid grid-cols-2 place-items-center mx-[20px] gap-9 sm:grid-cols-1 grid-cols-1 lg:grid-cols-2'>
                     <div className='ml-[30px] sm:ml-[0px] md:ml-[0px] lg:ml-[30px]'>
-                            <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-blue-900 text-white px-[10px] py-[20px] rounded-xl sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWOR invites you to join a collective journey that blends humor with blockchain innovation.</p>
+                            <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-gray-900 text-white px-[10px] py-[20px] rounded-xl sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWOR invites you to join a collective journey that blends humor with blockchain innovation.</p>
                         </div>
                         <div className='flex justify-center flex-row mt-[20px]'>
                             <img className='w-[70%] object-contain rounded-lg sm:w-[80%] md:w-[80%] lg:w-[70%]' src="/Images/about.jpg" alt="" />
                         </div>
                     </div>
             </section>
-            <section id='roadmap'>
+             <section id='roadmap'>
+                <h2 className='cartoon-text mb-[20px] text-green text-center mt-[20px] mb-[30px] sm:text-[30px] md:text-[30px] lg:text-[40px]'>Roadmap</h2>
+                <Swipers/>
+            </section>
+            {/* <section id='roadmap'>
             <h2 className='cartoon-text mb-[20px] text-green text-center mt-[20px] mb-[30px] sm:text-[30px] md:text-[30px] lg:text-[40px]'>Roadmap</h2>
                 <div className='flex items-center space-x-8 mx-[50px] place-items-center sm:block md:block lg:flex sm:mx-[50px] mx-[40px] lg:mx-[50px] sm:space-x-0 md:space-x-0 lg:space-x-8'>
                     <div>
@@ -169,10 +174,6 @@ function LandingPage () {
                             </div>
                         </div>
                     </div>
-                    
-                    {/* <div className='flex justify-end mr-[80px] flex-row'>
-                        <img className='w-[60%] object-contain' src="/Images/chians.gif" alt="" />
-                    </div> */}
                 </div>
                 <div className='flex justify-center space-x-6 mx-[50px] my-[20px] sm:block md:block lg:flex sm:mx-[50px] mx-[40px] lg:mx-[50px] sm:space-x-0 md:space-x-0 lg:space-x-8'>
                     <div>
@@ -219,12 +220,8 @@ function LandingPage () {
                             </div>
                         </div>
                     </div>
-                    
-                    {/* <div className='flex justify-end mr-[80px] flex-row'>
-                        <img className='w-[60%] object-contain' src="/Images/chians.gif" alt="" />
-                    </div> */}
                 </div>
-            </section>
+            </section> */}
             <section id='tokenomics'>
                 <h2 className='cartoon-text mb-[20px] text-green text-center mt-[100px] mb-[30px]'>Tokenomics</h2>
                 <div className="rounded-lg flex justify-center items-center">
