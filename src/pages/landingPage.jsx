@@ -2,6 +2,7 @@ import Navbar from '../components/nav.jsx';
 import React from "react";
 import Swipers from '../components/swiper.jsx';
 import { PieChart, Pie, Cell, Legend, Tooltip } from "recharts";
+import Marquee from "react-fast-marquee";
 const data = [
     { name: "Staking", value: 15, color: "#31356E" }, // Yellow
     { name: "Liquidity", value: 17.5, color: "#6CE5E8" }, // Green
@@ -26,12 +27,12 @@ function LandingPage () {
         <>
             <Navbar/>
             <section>
-               <div className='flex bg-[#813CAE] justify-center items-center pt-[100px] gap-9 mb-[70px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+               <div className='flex bg-[#813CAE] justify-center items-center pt-[100px] gap-9 mb-[80px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div className='sm:mt-[40px] md:mt-[20px] lg:mt-0 flex flex-col justify-center items-center sm:justify-center md:justify-center lg:justify-center'>
                         <img className='w-[70%] sm:w-[60%] md:w-[60%] lg:w-[70%] ' src="/Images/logo.png" alt="" />
                         <h2 className='text-[#111827] text-[60px] font-bold mb-[10px] sm:text-[50px] md:text-[50px] lg:text-[60px]'>$Mwor</h2>
                         <p className='text-[#111827] font-bold text-[19px] sm:text-[16px] md:text-[16px] lg:text-[19px]'>Meme World Order On Solana</p>
-                        <button className='text-[22px] font-bold bg-green-500 px-[30px] py-[10px] mt-[33px] mb-[40px] sm:text-[17px] md:text-[17px] lg:text[22px]'><a href="#trade">Trade $MWOR</a></button>
+                        <button className='text-[22px] border-4 border-[#111827] rounded-md font-bold bg-green-500 px-[30px] py-[10px] mt-[33px] mb-[60px] sm:text-[17px] md:text-[17px] lg:text[22px]'><a href="#trade">Trade $MWOR</a></button>
                     </div>
                 </div>
             </section>
@@ -55,14 +56,14 @@ function LandingPage () {
             </section>
             <section id='about' className='bg-[#813CAE] py-[60px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
                 <h2 className='text-[#111827] font-bold flex justify-center items-center sm:text-[35px] md:text-[35px] lg:text-[40px] sm:text-center md:text-center lg:text-center'>LEARN ABOUT MEME WORLD ORDER</h2>
-                <div className='grid grid-cols-3 place-items-center mx-[60px] gap-8 sm:grid-cols-1 grid-cols-1 lg:grid-cols-3'>
+                <div className='grid grid-cols-3 place-items-center mx-[60px] gap-8 sm:grid-cols-1 grid-cols-1 lg:grid-cols-3 sm:mx-[30px] md:mx-[w0px] lg:mx-[60px]'>
                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px]'>
                         <div className='flex items-center flex-col justify-center px-[20px] py-[30px]'>
                             <div className='flex justify-center items-center mb-[20px]'>
                                 <img className='w-[9%] mr-[10px] border-2 border-white rounded-md' src="/Images/logo.png" alt="" />
                                 <h2 className='font-bold text-[20px]'>ABOUT MEME WORLD ORDER</h2>
                             </div>
-                            <p className='w-[90%]'>Meme World Order ($MWOR) is a memedriven cryptocurrency on the Solana
+                            <p className='text-center'>Meme World Order ($MWOR) is a memedriven cryptocurrency on the Solana
                                 Network, created to deliver a fun,
                                 community-focused, and potentially
                                 rewarding crypto experience. Whether
@@ -78,28 +79,28 @@ function LandingPage () {
                             <div className='flex justify-center items-center mb-[20px]'>
                                 <h2 className='font-bold text-[20px]'>ROBUST INTEGRATION</h2>
                             </div>
-                            <p className='w-[90%]'>
+                            <p className='text-center'>
                                 $MWOR has established
                                 integrations with top dex, wallets,
                                 and services in the crypto space,
                                 ensuring seamless accessibility and
                                 utility for users
                             </p>
-                            <button className='border bg-white text-[#111827] px-[20px] py-[6px] rounded-sm my-[65px]'>FIND MORE</button>
+                            <button className='border bg-white text-[#111827] px-[20px] py-[6px] rounded-sm my-[53px]'>FIND MORE</button>
                         </div>
                     </div>
-                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px] px-[40px]'>
+                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px] px-[40px] sm:px-[60px] md:px-[60px] lg:px-[40px]'>
                         <div className='flex items-center flex-col justify-center px-[20px] py-[20px]'>
                             <div className='flex justify-center flex-col items-center mb-[20px]'>
                                 <h2 className='font-bold text-[20px] mb-[30px]'>$MWOR FACTS</h2>
-                                <ul className='list-disc mb-[20px]'>
+                                <ul className='list-disc mb-[20px] text-center'>
                                     <li>LP Locked & Burned</li>
                                     <li>Tax 0% buy & sell</li>
                                     <li> ATH $191k</li>
                                     <li>100m burned with daily of 250k</li>
                                 </ul>
                                 <h2 className='font-bold text-[20px] mb-[20px]'>$MWOR HIGHLIGHTS</h2>
-                                <ul className='list-disc'>
+                                <ul className='list-disc text-center'>
                                     <li>Token utility for daily jackpots</li>
                                     <li>25 % Buyback + Burn</li>
                                     <li>75 % Jackpot giveaways</li>
@@ -168,15 +169,33 @@ function LandingPage () {
                     </div>
                 </div>
             </section>
-            <section id="team" className='bg-[#813CAE] flex justify-center items-center flex-col pb-[50px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
-                <h2 className='text-[#111827] font-bold text-[40px] text-center mt-[50px] mb-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>Team</h2>
+            <section id="team" className='bg-[#813CAE] flex justify-center  text-white items-center flex-col pb-[50px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+                <h2 className='text-[#111827] font-bold text-[40px] text-center mt-[50px] mb-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>NFT</h2>
+                <p className='mb-[20px] w-[40%] text-center sm:w-[80%] md:w-[80%] lg:w-[40%]'><span className='text-[20px] text-white'>NFT Release April 10th priceeds</span><br></br>
+                    50 % Jackpot giveaways 25 % Treasury 25 % NFT buyback and burn
+                </p>
+                <Marquee speed={700}>
+                    <img className='w-[20%]' src="/Images/n0.png" alt="" />
+                    <img className='w-[20%]' src="/Images/n1.png" alt="" />
+                    <img className='w-[20%]' src="/Images/n2.png" alt="" />
+                    <img className='w-[20%]' src="/Images/n3.png" alt="" />
+                    <img className='w-[20%]' src="/Images/n4.png" alt="" />
+                    <img className='w-[20%]' src="/Images/n5.png" alt="" />
+                    <img className='w-[20%]'  src="/Images/n6.png" alt="" />
+                    <img className='w-[20%]' src="/Images/n7.png" alt="" />
+                    <img className='w-[20%]' src="/Images/n8.png" alt="" />
+                    <img className='w-[20%]' src="/Images/n9.png" alt="" />
+                </Marquee>
+            </section>
+            <section id="team" className='bg-[#111827] flex justify-center items-center flex-col pb-[50px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+                <h2 className='text-[#813CAE] font-bold text-[40px] text-center mt-[50px] mb-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>Team</h2>
                 <div className='grid grid-cols-3 gap-8 place-items-center px-[20px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 sm:px-[40px] md:px-[60px] lg:px-[20px]'>
                     <div className='bg-[#080D23] px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
                         <img className='w-[30%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/founder.png" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>Dev</h2>
                         <p className='text-[#94a3b8] mb-[20px]'>Founder</p>
                         <div>
-                            <a className='flex justify-center items-center mb-[20px]' href="https://t.me/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[11%] object-contain rounded-md border-2 border-white' src="/Images/tg.jpg" alt="" /></a>
+                            <a className='flex justify-center items-center mb-[20px]' href="https://t.me/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[11%] object-contain rounded-md border-2 border-white' src="/Images/s1.jpg" alt="" /></a>
                         </div>
                     </div>
                     <div className='bg-[#080D23] px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
@@ -184,8 +203,8 @@ function LandingPage () {
                         <h2 className='text-white text-[19px] mb-[20px]'>Glayzz_4T9ne</h2>
                         <p className='text-[#94a3b8] mb-[20px] w-[70%] text-center'>Community Manager  Graphic Designer</p>
                         <div className='grid grid-cols-2 place-items-center space-x-4'>
-                            <a className='mb-[20px] flex justify-end' href="https://t.me/@Glayzz_4T9ne_XD" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain rounded-md border-2 border-white' src="/Images/tg.jpg" alt="" /></a>
-                            <a className='mb-[20px]' href="https://x.com/glayzz_4t9ne_bk?s=21" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
+                            <a className='mb-[20px] flex justify-end' href="https://t.me/@Glayzz_4T9ne_XD" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain rounded-md border-2 border-white' src="/Images/s1.jpg" alt="" /></a>
+                            <a className='mb-[20px]' href="https://x.com/glayzz_4t9ne_bk?s=21" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-white' src="/Images/s3.jpg" alt="" /></a>
                         </div>
                     </div>
                     <div className='bg-[#080D23] px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
@@ -193,13 +212,13 @@ function LandingPage () {
                         <h2 className='text-white text-[19px] mb-[20px]'>P Dave</h2>
                         <p className='text-[#94a3b8] mb-[20px]'>Social Media Manager</p>
                         <div className='grid grid-cols-2 place-items-center space-x-4'>
-                            <a className='mb-[20px] flex justify-end' href="https://t.me/@JaceD23" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain rounded-md border-2 border-white' src="/Images/tg.jpg" alt="" /></a>
-                            <a className='mb-[20px]' href="https://x.com/JaydenDavid23?t=tIfLF80pmxonn74smYRinw&s=09" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
+                            <a className='mb-[20px] flex justify-end' href="https://t.me/@JaceD23" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain rounded-md border-2 border-white' src="/Images/s1.jpg" alt="" /></a>
+                            <a className='mb-[20px]' href="https://x.com/JaydenDavid23?t=tIfLF80pmxonn74smYRinw&s=09" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-white' src="/Images/s3.jpg" alt="" /></a>
                         </div>
                     </div>
                 </div>
             </section>
-            <section>
+            <section className='bg-[#813CAE] py-[40px]'>
                 <h2 className='mb-[20px] text-center mt-[80px] text-white font-bold text-[40px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>FAQS</h2>
                 <div className='px-[50px]'>
                     <Accordion>
@@ -259,22 +278,22 @@ function LandingPage () {
                     <div className='bg-gray-900 px-[20px] rounded-md'>
                         <h2 className='mb-[10px] text-white text-[20px] mt-[20px] font-bold text-center'>Maintaining Order For Memes On Solana</h2>
                         <p className='text-[15px] my-[15px] font-bold text-white text-center'>Perfect order, Real value and Utility, Market takeover</p>
-                        <div className='flex justify-center items-center pb-[35px] pt-[30px] sm:pl-[40px] md:pl-[40px] lg:pl-[70px] bg-[#813CAE] rounded-md'>
+                        <div className='flex justify-center items-center pb-[35px] pt-[30px] sm:pl-[40px] md:pl-[40px] lg:pl-[70px]  rounded-md'>
                             <div className=''>
-                                <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[29%] mb-[20px] border-2 border-white' src="/Images/tg.jpg" alt="" /></a>
-                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md border-2 border-white' src="/Images/medium.jpg" alt="" /></a>
+                                <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[29%] mb-[20px] border-2 border-white' src="/Images/s1.jpg" alt="" /></a>
+                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md border-2 border-white' src="/Images/s6.jpg" alt="" /></a>
                             </div>
                             <div>
-                                <a href="https://www.reddit.com/u/mworder2024/s/eJTNkOVjg7" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md mb-[20px] sm:w-[50%] md:w-[50%] lg:w-[29%] border-2 border-white' src="/Images/reddit.jpg" alt="" /></a>
-                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] mr-[120px] ml-[25px] rounded-md sm:ml-0 md:ml-0 lg:ml-25 sm:mr-[20px] md:mr-[20px] lg:mr-[20px] border-2 border-white' src="/Images/fb.png" alt="" /></a>
+                                <a href="https://www.reddit.com/u/mworder2024/s/eJTNkOVjg7" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md mb-[20px] sm:w-[50%] md:w-[50%] lg:w-[29%] border-2 border-white' src="/Images/s8.jpg" alt="" /></a>
+                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] mr-[120px] ml-[25px] rounded-md sm:ml-0 md:ml-0 lg:ml-25 sm:mr-[20px] md:mr-[20px] lg:mr-[20px] border-2 border-white' src="/Images/s2.jpg" alt="" /></a>
                             </div>
                             <div>
-                                <a href="https://twitter.com/mworder2024" target="_blank" rel="noopener noreferrer"><img className='w-[40%] object-contain cursor-pointer rounded-md mr-[80px] sm:mr-[20px] md:mr-[20px] lg:mr-[20px] sm:w-[50%] mb-[20px] md:w-[50%] lg:w-[29%] border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
-                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md sm:ml-[0px] md:ml-[0px] lg:ml-[0px] border-2 border-white' src="/Images/tik.jpg" alt="" /></a>
+                                <a href="https://twitter.com/mworder2024" target="_blank" rel="noopener noreferrer"><img className='w-[40%] object-contain cursor-pointer rounded-md mr-[80px] sm:mr-[20px] md:mr-[20px] lg:mr-[20px] sm:w-[50%] mb-[20px] md:w-[50%] lg:w-[29%] border-2 border-white' src="/Images/s3.jpg" alt="" /></a>
+                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md sm:ml-[0px] md:ml-[0px] lg:ml-[0px] border-2 border-white' src="/Images/s7.jpg" alt="" /></a>
                             </div>
                             <div>
-                                <a href="https://discord.com/invite/H7eCbTZKHu" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[29%] mb-[20px] border-2 border-white' src="/Images/discord.jpg" alt="" /></a>
-                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md mr-[150px] sm:mr-[20px] md:mr-[20px] lg:ml-[0px] border-2 border-white' src="/Images/instagram.jpg" alt="" /></a>
+                                <a href="https://discord.com/invite/H7eCbTZKHu" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[29%] mb-[20px] border-2 border-white' src="/Images/s5.jpg" alt="" /></a>
+                                <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md mr-[150px] sm:mr-[20px] md:mr-[20px] lg:ml-[0px] border-2 border-white' src="/Images/s4.jpg" alt="" /></a>
                             </div>
                         </div>
                     </div>
