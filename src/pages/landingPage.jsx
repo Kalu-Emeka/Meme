@@ -32,7 +32,7 @@ function LandingPage () {
                         <img className='w-[70%] sm:w-[60%] md:w-[60%] lg:w-[70%] ' src="/Images/logo.png" alt="" />
                         <h2 className='text-[#111827] text-[60px] font-bold mb-[10px] sm:text-[50px] md:text-[50px] lg:text-[60px]'>$Mwor</h2>
                         <p className='text-[#111827] font-bold text-[19px] sm:text-[16px] md:text-[16px] lg:text-[19px]'>Meme World Order On Solana</p>
-                        <button className='text-[22px] border-4 border-[#111827] rounded-md font-bold bg-green-500 px-[30px] py-[10px] mt-[33px] mb-[60px] sm:text-[17px] md:text-[17px] lg:text[22px]'><a href="#trade">Trade $MWOR</a></button>
+                        <button className='text-[22px] border-4 border-[#111827] rounded-md font-bold bg-green-500 px-[30px] py-[10px] mt-[33px] mb-[90px] sm:text-[17px] md:text-[17px] lg:text[22px]'><a href="#trade">Trade $MWOR</a></button>
                     </div>
                 </div>
             </section>
@@ -61,7 +61,7 @@ function LandingPage () {
                         <div className='flex items-center flex-col justify-center px-[20px] py-[30px]'>
                             <div className='flex justify-center items-center mb-[20px]'>
                                 <img className='w-[9%] mr-[10px] border-2 border-white rounded-md' src="/Images/logo.png" alt="" />
-                                <h2 className='font-bold text-[20px]'>ABOUT MEME WORLD ORDER</h2>
+                                <h2 className='font-bold text-[20px] text-center'>ABOUT MEME WORLD ORDER</h2>
                             </div>
                             <p className='text-center'>Meme World Order ($MWOR) is a memedriven cryptocurrency on the Solana
                                 Network, created to deliver a fun,
@@ -99,7 +99,7 @@ function LandingPage () {
                                     <li> ATH $191k</li>
                                     <li>100m burned with daily of 250k</li>
                                 </ul>
-                                <h2 className='font-bold text-[20px] mb-[20px]'>$MWOR HIGHLIGHTS</h2>
+                                <h2 className='font-bold text-[20px] mb-[20px] text-center'>$MWOR HIGHLIGHTS</h2>
                                 <ul className='list-disc text-center'>
                                     <li>Token utility for daily jackpots</li>
                                     <li>25 % Buyback + Burn</li>
@@ -142,11 +142,11 @@ function LandingPage () {
                 <h2 className='text-[#813CAE] mb-[20px] text-center mt-[120px] text-[40px] font-bold sm:text-[35px] md:text-[35px] lg:text-[40px]'>HOW TO BUY</h2>
                 <p className='text-[19px] text-center text-white'>Follow these easy steps to become part of the $MWOR holders</p>
                 <div className='flex items-center justify-center mt-[50px] sm:block md:block lg:flex'>
-                    <div className='mr-[40px] w-[130%] sm:w-[97%] md:w-[97%] lg:w-[130%]'>
+                    <div className='flex justify-center items-center flex-col mr-[40px] w-[130%] sm:w-[97%] md:w-[97%] lg:w-[130%]'>
                         <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                             <div className='bg-[#080D23] rounded-md px-[30px] py-[30px]'>
                                 <h2 className='text-white text-[20px] font-bold mb-[20px]'><span className='text-[#813CAE] font-bold text-[20px]'>1.</span> CREATE A WALLET WITH PHANTOM</h2>
-                                <p className='text-white'>Visit <span className='text-red-800'>Phantom.app</span> and follow the simple steps to create a new account with the Phantom app or browser extension.</p>
+                                <p className='text-white'>Visit <span className='text-red-800'><a href="phantom.app" target="_blank" rel="noopener noreferrer"></a>Phantom.app</span> and follow the simple steps to create a new account with the Phantom app or browser extension.</p>
                             </div>
                             <div className='bg-[#080D23] rounded-md px-[20px] py-[20px]'>
                                 <h2 className='text-white font-bold mb-[20px] text-[20px]'><span className='text-[#813CAE] font-bold text-[20px]'>2.</span> GET SOME $SOL</h2>
@@ -163,6 +163,7 @@ function LandingPage () {
                                 <p className='text-white'>Welcome to the #MWOR Community.</p>
                             </div>
                         </div>
+                        <button className='border bg-white text-[#111827] px-[20px] py-[6px] rounded-sm my-[53px] font-bold'><a href="https://jup.ag/swap/SOL-EoRe4xECTe9imaYtwfdmrGoinD2S1N5yMeu1LrjQpump" target="_blank" rel="noopener noreferrer">Buy $MWOR here</a></button>
                     </div>
                     <div className='rounded-lg sm:mt-[30px] md:mt-[30px] lg:mt-0'>
                         <img className='' src="/Images/hero.png" alt="" />
@@ -186,6 +187,29 @@ function LandingPage () {
                     <img className='w-[20%]' src="/Images/n8.png" alt="" />
                     <img className='w-[20%]' src="/Images/n9.png" alt="" />
                 </Marquee>
+                <div className='flex justify-center mt-[50px]'>
+                    <div className='flex items-center mx-[50px] w-[50%] flex-col bg-[#080D23] border-8 border-black text-white px-[10px] py-[20px]  sm:mx-[10px] sm:w-[80%] md:w-[80%] lg:w-[50%]'>
+                        <h2><span className='ext-[#813CAE] font-bold text-[20px] font-bold'>WHY INVEST IN $MWOR</span> </h2>
+                        <div className='flex items-center justify-center mt-[10px]'>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Community-Driven: From meme contests to AMAs, we’re building a movement, not just a token.</p>
+                        </div>
+                        <div className='flex items-center justify-center mt-[10px]'>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Staking Rewards: High APYs and exclusive perks make holding $MWOR irresistible.</p>
+                        </div>
+                        <div className='flex items-center justify-center mt-[10px]'>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">NFT Value: A unique NFT collection adds a collectible layer with tangible benefits for holders.</p>
+                        </div>
+                        <div className='flex items-center justify-center mt-[10px]'>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]"> Deflationary Edge: Our Buyback & Burn strategy ensures $MWOR becomes scarcer and more valuable over time.</p>
+                        </div>
+                        <div className='flex items-center justify-center mt-[10px]'>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Real Utility: From NFTs to merch to ecosystem services, $MWOR is more than a meme it’s a lifestyle.</p>
+                        </div>
+                        <div className='flex items-center justify-center mt-[10px]'>
+                            <p className="text-[15px] font-bold text-center before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Join us as we launch, promote, and scale $MWOR into a deflationary powerhouse with a killer NFT twist. The meme revolution starts here get in early!</p>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="team" className='bg-[#111827] flex justify-center items-center flex-col pb-[50px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
                 <h2 className='text-[#813CAE] font-bold text-[40px] text-center mt-[50px] mb-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>Team</h2>

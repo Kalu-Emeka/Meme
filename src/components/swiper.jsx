@@ -144,33 +144,6 @@ function Swipers() {
               </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-        <div>
-            <div className='flex justify-center'>
-                <div className='flex items-start mx-[50px] w-[50%] flex-col bg-[#382456] text-white px-[10px] py-[20px] rounded-xl sm:w-[80%] md:w-[80%] lg:w-[50%]'>
-                    <h2><span className='text-[20px] text-green-500 font-bold'>WHY INVEST IN $MWOR</span> </h2>
-                    <div className='flex items-center justify-center mt-[10px]'>
-                        <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Community-Driven: From meme contests to AMAs, we’re building a movement, not just a token.</p>
-                    </div>
-                    <div className='flex items-center justify-center mt-[10px]'>
-                        <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Staking Rewards: High APYs and exclusive perks make holding $MWOR irresistible.</p>
-                    </div>
-                    <div className='flex items-center justify-center mt-[10px]'>
-                        <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">NFT Value: A unique NFT collection adds a collectible layer with tangible benefits for holders.</p>
-                    </div>
-                    <div className='flex items-center justify-center mt-[10px]'>
-                        <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]"> Deflationary Edge: Our Buyback & Burn strategy ensures $MWOR becomes scarcer and more valuable over time.</p>
-                    </div>
-                    <div className='flex items-center justify-center mt-[10px]'>
-                        <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Real Utility: From NFTs to merch to ecosystem services, $MWOR is more than a meme it’s a lifestyle.</p>
-                    </div>
-                    <div className='flex items-center justify-center mt-[10px]'>
-                        <p className="text-[15px] font-bold text-center before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Join us as we launch, promote, and scale $MWOR into a deflationary powerhouse with a killer NFT twist. The meme revolution starts here get in early!</p>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </SwiperSlide>
       </div>
     </Swiper>
   );
