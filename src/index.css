@@ -2,21 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  font-family: "Inter";
-  animation: backgroundAnimation 10s infinite alternate ease-in-out;
-  /* bg-gradient-to-b from-orange-500 via-orange-600 to-orange-700 */
+  /* font-family: "Inter"; */
+  font-family: "Inter", sans-serif;
+  background-color: #111827;
 }
 .marquee {
   /* Ensures text doesn't wrap and hides overflow */
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
-  background-color: #ff0000; /* Red background */
+  background-color: #FFDE59; /* Red background */
   color: black;
-  top: 75px;             /* White text */
+  font-weight: 700;
+  top: -70px;             /* White text */
   padding: 10px 0;          /* Vertical padding */
   box-sizing: border-box;
   position: relative;
+  font-size: 17px;
 }
 
 .marquee__inner {
@@ -42,25 +44,8 @@ body {
   }
 }
 .swiper {
-  margin-top: 150px;
+  margin-top: 50px;
 }
-.cartoon-text {
-  font-size: 40px;
-  font-weight: 900;
-  font-weight: bold;
-  color: rgb(173, 209, 207); /* Green color */
-  /* -webkit-text-stroke: 3px black; Black outline */
-  /* text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.6); Shadow effect */
-  font-family: "Comic Sans MS", "Arial Black", sans-serif;
-}
-#video-header {
-  object-fit: cover;
-  object-position: 100% 100%;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  visibility: visible;
-  z-index: -1;
+.h {
+  font-family: "Roboto";
 }

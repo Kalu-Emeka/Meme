@@ -3,12 +3,12 @@ import React from "react";
 import Swipers from '../components/swiper.jsx';
 import { PieChart, Pie, Cell, Legend, Tooltip } from "recharts";
 const data = [
-    { name: "Staking", value: 15, color: "#FFD700" }, // Yellow
-    { name: "Liquidity", value: 17.5, color: "#2ECC71" }, // Green
-    { name: "Team", value: 7.5, color: "#3498DB" }, // Blue
-    { name: "Ecosystem", value: 7.5, color: "#8E44AD" }, // Purple
-    { name: "Marketing", value: 10, color: "" }, // Pink
-    { name: "Early Investors", value: 7.5, color: "#A52A2A" }, // Pink
+    { name: "Staking", value: 15, color: "#31356E" }, // Yellow
+    { name: "Liquidity", value: 17.5, color: "#6CE5E8" }, // Green
+    { name: "Team", value: 7.5, color: "#2F5F98" }, // Blue
+    { name: "Ecosystem", value: 7.5, color: "#2D8BBA" }, // Purple
+    { name: "Marketing", value: 10, color: "#41B8D5" }, // Pink
+    { name: "Early Investors", value: 7.5, color: "#6CE5E8" }, // Pink
     { name: "Free Supply", value: 35, color: "#1ABC9C" }, // Pink
 ];    
 import {
@@ -25,59 +25,99 @@ function LandingPage () {
     return (
         <>
             <Navbar/>
+            <section>
+               <div className='flex bg-[#813CAE] justify-center items-center pt-[100px] gap-9 mb-[70px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div className='sm:mt-[40px] md:mt-[20px] lg:mt-0 flex flex-col justify-center items-center sm:justify-center md:justify-center lg:justify-center'>
+                        <img className='w-[70%] sm:w-[60%] md:w-[60%] lg:w-[70%] ' src="/Images/logo.png" alt="" />
+                        <h2 className='text-[#111827] text-[60px] font-bold mb-[10px] sm:text-[50px] md:text-[50px] lg:text-[60px]'>$Mwor</h2>
+                        <p className='text-[#111827] font-bold text-[19px] sm:text-[16px] md:text-[16px] lg:text-[19px]'>Meme World Order On Solana</p>
+                        <button className='text-[22px] font-bold bg-green-500 px-[30px] py-[10px] mt-[33px] mb-[40px] sm:text-[17px] md:text-[17px] lg:text[22px]'><a href="#trade">Trade $MWOR</a></button>
+                    </div>
+                </div>
+            </section>
             <div className="marquee">
                 <div className="marquee__inner">
                     <span>BREAKING: MEME WORLD ORDER IS NOW LIVE!</span>
                     <span>BREAKING: MEME WORLD ORDER IS NOW LIVE! </span>
                 </div>
-            </div>
-            <video id="video-header" autoPlay loop muted>
-                <source src="/Images/background.MP4" type="video/mp4"/>
-            </video>
-            <section>
-                <div className='grid grid-cols-3 pt-[120px] mx-[20px] gap-9 mb-[70px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3'>
-                    <div>
-                        <div className="flex justify-center items-center w-full h-[70vh] rounded-xl">
-                            <iframe
-                                src="https://app.rubic.exchange/?fromChain=SOLANA&toChain=SOLANA&from=SOL&to=MWOR"
-                                title="Rubic Exchange Widget"
-                                className="rounded-xl w-full h-[80vh]"
-                                style={{ border: "none", overflow: "hidden" }}
-                            />
+            </div> 
+            <section id='trade' className='bg-[#111827]'>
+                <h2 className='text-center text-white text-[40px] font-bold pb-[20px]'>EASY TRADE</h2>
+                <p className='text-center text-white text-[15px] font-bold pb-[20px]'>Easily trade any crypto to $MWOR with Rubic</p>
+                    <div className="flex flex-col justify-center items-center w-full h-[70vh] rounded-xl mb-[40px]">
+                       <iframe
+                            src="https://app.rubic.exchange/?fromChain=SOLANA&toChain=SOLANA&from=SOL&to=MWOR"
+                            title="Rubic Exchange Widget"
+                                className="rounded-xl w-[80%] h-[80vh] sm:w-[80%] md:w-[70%] lg:w-[50%]"
+                            style={{ border: "none", overflow: "hidden" }}
+                        />
+                    </div>
+            </section>
+            <section id='about' className='bg-[#813CAE] py-[60px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+                <h2 className='text-[#111827] font-bold flex justify-center items-center sm:text-[35px] md:text-[35px] lg:text-[40px] sm:text-center md:text-center lg:text-center'>LEARN ABOUT MEME WORLD ORDER</h2>
+                <div className='grid grid-cols-3 place-items-center mx-[60px] gap-8 sm:grid-cols-1 grid-cols-1 lg:grid-cols-3'>
+                   <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px]'>
+                        <div className='flex items-center flex-col justify-center px-[20px] py-[30px]'>
+                            <div className='flex justify-center items-center mb-[20px]'>
+                                <img className='w-[9%] mr-[10px] border-2 border-white rounded-md' src="/Images/logo.png" alt="" />
+                                <h2 className='font-bold text-[20px]'>ABOUT MEME WORLD ORDER</h2>
+                            </div>
+                            <p className='w-[90%]'>Meme World Order ($MWOR) is a memedriven cryptocurrency on the Solana
+                                Network, created to deliver a fun,
+                                community-focused, and potentially
+                                rewarding crypto experience. Whether
+                                you’re a seasoned enthusiast or a
+                                newcomer, $MWOR invites you to join a
+                                collective journey that blends humor
+                                with blockchain innovation.
+                            </p>
                         </div>
                     </div>
-                    <div className='sm:mt-[40px] md:mt-[20px] lg:mt-0 flex justify-center items-center flex-col sm:justify-center md:justify-center lg:justify-start sm:items-center md:items-center lg:items-start'>
-                        <h2 className='cartoon-text sm:text-center md:text-center lg:text-left mb-[10px] text-green mt-0 sm:text-[30px] md:text-[30px] lg:text-[40px]'>MEME WORLD ORDER IS NOW LIVE</h2>
-                        <p className='text-[15px] mt-[10px] font-bold text-left sm:text-center md:text-center lg:text-left'>Welcome to $MWOR. We are building a full blown movement on Solana</p>
-                        <div className='flex'>
-                            <button className='rounded-[70px] mr-[10px] border-black border-2 px-[20px] py-[10px] border mt-[20px] font-bold text-[19px] cursor-pointer bg-[#2eb335]'><a href="https://raydium.io/swap/?inputMint=sol&outputMint=EoRe4xECTe9imaYtwfdmrGoinD2S1N5yMeu1LrjQpump&referrer=BosMQ79Pdj824ywxKtX6sG293QFSRAGC7EvBooZXCboj" target="_blank" rel="noopener noreferrer">Buy now</a></button>
-                            <button className='rounded-[70px] border-black border-2 px-[20px] py-[10px] border mt-[20px] font-bold text-[19px] cursor-pointer bg-white'><a href="https://dexscreener.com/solana/GjeoEzugvhZYHyALgCLcxcLfbB52vRfz8jXFn26oNqsx" target="_blank" rel="noopener noreferrer">DexScreener</a></button>
+                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px]'>
+                        <div className='flex items-center flex-col justify-center px-[20px] py-[20px]'>
+                            <div className='flex justify-center items-center mb-[20px]'>
+                                <h2 className='font-bold text-[20px]'>ROBUST INTEGRATION</h2>
+                            </div>
+                            <p className='w-[90%]'>
+                                $MWOR has established
+                                integrations with top dex, wallets,
+                                and services in the crypto space,
+                                ensuring seamless accessibility and
+                                utility for users
+                            </p>
+                            <button className='border bg-white text-[#111827] px-[20px] py-[6px] rounded-sm my-[65px]'>FIND MORE</button>
                         </div>
                     </div>
-                    <div className='flex justify-center items-center flex-col-reverse mr-[80px] flex-row sm:mr-[20px] md:mr-[20px] lg:mr-[80px]'>
-                        <img className='w-[85%] object-contain' src="/Images/hero.png" alt="" />
+                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px] px-[40px]'>
+                        <div className='flex items-center flex-col justify-center px-[20px] py-[20px]'>
+                            <div className='flex justify-center flex-col items-center mb-[20px]'>
+                                <h2 className='font-bold text-[20px] mb-[30px]'>$MWOR FACTS</h2>
+                                <ul className='list-disc mb-[20px]'>
+                                    <li>LP Locked & Burned</li>
+                                    <li>Tax 0% buy & sell</li>
+                                    <li> ATH $191k</li>
+                                    <li>100m burned with daily of 250k</li>
+                                </ul>
+                                <h2 className='font-bold text-[20px] mb-[20px]'>$MWOR HIGHLIGHTS</h2>
+                                <ul className='list-disc'>
+                                    <li>Token utility for daily jackpots</li>
+                                    <li>25 % Buyback + Burn</li>
+                                    <li>75 % Jackpot giveaways</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section id='about'>
-                <h2 className='cartoon-text text-green text-center sm:text-[30px] md:text-[30px] lg:text-[40px]'>About Meme World Order</h2>
-                <div className='grid grid-cols-2 place-items-center mx-[20px] gap-9 sm:grid-cols-1 grid-cols-1 lg:grid-cols-2'>
-                    <div className='ml-[30px] sm:ml-[0px] md:ml-[0px] lg:ml-[30px]'>
-                            <p className='text-[15px] mt-[10px] font-bold border border-2 border-black bg-gray-900 text-white px-[10px] py-[20px] rounded-xl sm:mt-[30px] md:mt-[30px] lg:mt-[10px]'><span className='text-[17px] text-green-500 font-bold'>Meme World Order ($MWOR)</span> is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $MWOR invites you to join a collective journey that blends humor with blockchain innovation.</p>
-                        </div>
-                        <div className='flex justify-center flex-row mt-[20px]'>
-                            <img className='w-[70%] object-contain rounded-lg sm:w-[80%] md:w-[80%] lg:w-[70%]' src="/Images/about.jpg" alt="" />
-                        </div>
-                    </div>
-            </section>
-             <section id='roadmap'>
-                <h2 className='cartoon-text mb-[20px] text-green text-center mt-[20px] mb-[30px] sm:text-[30px] md:text-[30px] lg:text-[40px]'>Roadmap</h2>
+             <section id='roadmap'className='mt-[70px] mb-[30px]'>
+                <h2 className='text-white font-bold text-green text-center mt-[20px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>Roadmap</h2>
                 <Swipers/>
             </section>
-            <section id='tokenomics'>
-                <h2 className='cartoon-text mb-[20px] text-green text-center mt-[100px] mb-[30px]'>Tokenomics</h2>
-                <div className="rounded-lg flex justify-center items-center">
-                <PieChart width={400} height={400}>
+            <section id='tokenomics' className='bg-[#813CAE] flex justify-center items-center flex-col pb-[50px]'>
+                <h2 className='mb-[20px] text-center mt-[100px] mb-[30px] text-[#111827] font-bold text-[40px] pt-[20px]'>Tokenomics</h2>
+                <p className='text-white font-bold w-[40%] text-center text-[18px] mb-[20px] sm:w-[80%] md:w-[80%] lg:w-[40%]'>MEME WORLD ORDER made One Billion tokens, burnt over 100m and leaving about 900m in circulation.</p>
+                <div className="rounded-lg flex justify-center items-center flex-col">
+                <PieChart width={450} height={450}>
                     <Pie
                         data={data}
                         cx="50%"
@@ -93,21 +133,54 @@ function LandingPage () {
                     <Tooltip />
                     <Legend />
                 </PieChart>
+                <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[50px] text-[18px]'>TOTAL SUPPLY 1,000,000,000 $MWOR</p>
+                <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[20px] text-[18px] text-center mx-[50px]'>TOKEN ADDRESS <br></br> EoRe4xECTe9imaYtwfdmrGoinD2S1 N5yMeu1LrjQpump</p>
                 </div>
             </section>
-            <section id="team">
-                <h2 className='cartoon-text text-green text-center mt-[120px] mb-[30px]'>Team</h2>
+            <section id="buy" className='px-[50px] pb-[40px]'  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+                <h2 className='text-[#813CAE] mb-[20px] text-center mt-[120px] text-[40px] font-bold sm:text-[35px] md:text-[35px] lg:text-[40px]'>HOW TO BUY</h2>
+                <p className='text-[19px] text-center text-white'>Follow these easy steps to become part of the $MWOR holders</p>
+                <div className='flex items-center justify-center mt-[50px] sm:block md:block lg:flex'>
+                    <div className='mr-[40px] w-[130%] sm:w-[97%] md:w-[97%] lg:w-[130%]'>
+                        <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
+                            <div className='bg-[#080D23] rounded-md px-[30px] py-[30px]'>
+                                <h2 className='text-white text-[20px] font-bold mb-[20px]'><span className='text-[#813CAE] font-bold text-[20px]'>1.</span> CREATE A WALLET WITH PHANTOM</h2>
+                                <p className='text-white'>Visit <span className='text-red-800'>Phantom.app</span> and follow the simple steps to create a new account with the Phantom app or browser extension.</p>
+                            </div>
+                            <div className='bg-[#080D23] rounded-md px-[20px] py-[20px]'>
+                                <h2 className='text-white font-bold mb-[20px] text-[20px]'><span className='text-[#813CAE] font-bold text-[20px]'>2.</span> GET SOME $SOL</h2>
+                                <p className='text-white'>Tap the BUY button in the app to purchase Solana, or deposit $SOL to your Phantom wallet from the crypto exchange of your choice.</p>
+                            </div>
+                        </div>
+                        <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
+                            <div className='bg-[#080D23] rounded-md px-[20px] py-[20px] mt-[10px]'>
+                                <h2 className='text-white text-[20px] font-bold mb-[20px]'><span className='text-[#813CAE] font-bold text-[20px]'>3.</span> SWAP $SOL FOR $PONKE</h2>
+                                <p className='text-white'>Tap the SWAP icon in your Phantom wallet and paste the $PONKE token address. Swap your $SOL for $MWOR.</p>
+                            </div>
+                            <div className='bg-[#080D23] rounded-md px-[20px] py-[20px] mt-[10px]'>
+                                <h2 className='text-white font-bold mb-[20px] text-[20px]'>4. You are now a $MWOR holder!</h2>
+                                <p className='text-white'>Welcome to the #MWOR Community.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='rounded-lg sm:mt-[30px] md:mt-[30px] lg:mt-0'>
+                        <img className='' src="/Images/hero.png" alt="" />
+                    </div>
+                </div>
+            </section>
+            <section id="team" className='bg-[#813CAE] flex justify-center items-center flex-col pb-[50px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+                <h2 className='text-[#111827] font-bold text-[40px] text-center mt-[50px] mb-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>Team</h2>
                 <div className='grid grid-cols-3 gap-8 place-items-center px-[20px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 sm:px-[40px] md:px-[60px] lg:px-[20px]'>
-                    <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
-                        <img className='w-[50%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/founder.png" alt="" />
+                    <div className='bg-[#080D23] px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
+                        <img className='w-[30%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/founder.png" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>Dev</h2>
                         <p className='text-[#94a3b8] mb-[20px]'>Founder</p>
                         <div>
                             <a className='flex justify-center items-center mb-[20px]' href="https://t.me/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[11%] object-contain rounded-md border-2 border-white' src="/Images/tg.jpg" alt="" /></a>
                         </div>
                     </div>
-                    <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
-                        <img className='w-[50%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/team1.jpg" alt="" />
+                    <div className='bg-[#080D23] px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
+                        <img className='w-[30%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/team1.jpg" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>Glayzz_4T9ne</h2>
                         <p className='text-[#94a3b8] mb-[20px] w-[70%] text-center'>Community Manager  Graphic Designer</p>
                         <div className='grid grid-cols-2 place-items-center space-x-4'>
@@ -115,8 +188,8 @@ function LandingPage () {
                             <a className='mb-[20px]' href="https://x.com/glayzz_4t9ne_bk?s=21" target="_blank" rel="noopener noreferrer"><img className='w-[22%] object-contain rounded-md border-2 border-white' src="/Images/twiiter.png" alt="" /></a>
                         </div>
                     </div>
-                    <div className='bg-gray-900 px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
-                        <img className='w-[50%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/social.jpg" alt="" />
+                    <div className='bg-[#080D23] px-[30px] flex justify-center flex-col items-center rounded-xl shadow-md mr-[30px] sm:mr-0 md:mr-0 lg:mr-[30px]'>
+                        <img className='w-[30%] mb-[20px] mt-[40px] rounded-[130px]' src="/Images/social.jpg" alt="" />
                         <h2 className='text-white text-[19px] mb-[20px]'>P Dave</h2>
                         <p className='text-[#94a3b8] mb-[20px]'>Social Media Manager</p>
                         <div className='grid grid-cols-2 place-items-center space-x-4'>
@@ -126,43 +199,13 @@ function LandingPage () {
                     </div>
                 </div>
             </section>
-            <section id="buy" className='px-[50px]'>
-                <h2 className='cartoon-text mb-[20px] text-green text-center mt-[120px]'>HOW TO BUY</h2>
-                <div className='flex items-center justify-center mt-[50px] sm:block md:block lg:flex'>
-                    <div className='mr-[40px] w-[130%] sm:w-[97%] md:w-[97%] lg:w-[130%]'>
-                        <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
-                            <div className='bg-gray-900 rounded-md px-[30px] py-[30px]'>
-                                <h2 className='text-white font-bold mb-[20px]'>1. CREATE A WALLET</h2>
-                                <p className='text-white'>Set up a Solana-compatible wallet (e.g., Phantom or Solflare) that supports $MWOR. Remember to keep your seed phrase and private keys secure.</p>
-                            </div>
-                            <div className='bg-gray-900 rounded-md px-[20px] py-[20px]'>
-                                <h2 className='text-white font-bold mb-[20px]'>2. Participate in the Fair Launch</h2>
-                                <p className='text-white'>Head over to pump.fun to be part of the fair launch. There’s no presale—everyone obtains $MWOR tokens at the same time, ensuring equal opportunity for all.</p>
-                            </div>
-                        </div>
-                        <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
-                            <div className='bg-gray-900 rounded-md px-[20px] py-[20px] mt-[10px]'>
-                                <h2 className='text-white font-bold mb-[20px]'>3. Stake for Rewards</h2>
-                                <p className='text-white'>Once you have your $MWOR tokens, consider staking them to earn additional rewards. Check out our staking page (if applicable) for more information on how to maximize your $MWOR holdings.</p>
-                            </div>
-                            <div className='bg-gray-900 rounded-md px-[20px] py-[20px] mt-[10px]'>
-                                <h2 className='text-white font-bold mb-[20px]'>4. You are now a $MWOR holder!</h2>
-                                <p className='text-white'>Welcome to the #MWOR Community.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='border rounded-lg border-black border-2 sm:mt-[30px] md:mt-[30px] lg:mt-0'>
-                        <img className='' src="/Images/buy.jpg" alt="" />
-                    </div>
-                </div>
-            </section>
             <section>
-                <h2 className='cartoon-text mb-[20px] text-green text-center mt-[120px]'>FAQS</h2>
+                <h2 className='mb-[20px] text-center mt-[80px] text-white font-bold text-[40px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>FAQS</h2>
                 <div className='px-[50px]'>
                     <Accordion>
                         <AccordionItem>
                             <AccordionItemHeading>
-                                <AccordionItemButton className='text-[20px] text-white bg-gray-900 px-[40px] py-[20px] rounded-md sm:text-[18px] md:text-[18px] lg:text-[20px]'>
+                                <AccordionItemButton className='text-[20px] text-white bg-[#080D23] px-[40px] py-[20px] rounded-md sm:text-[18px] md:text-[18px] lg:text-[20px]'>
                                     What is $MWOR?
                                 </AccordionItemButton>
                             </AccordionItemHeading>
@@ -174,7 +217,7 @@ function LandingPage () {
                         </AccordionItem>
                         <AccordionItem>
                             <AccordionItemHeading>
-                                <AccordionItemButton className='text-[20px] text-white bg-gray-900 px-[40px] py-[20px] rounded-md sm:text-[18px] md:text-[18px] lg:text-[20px]'>
+                                <AccordionItemButton className='text-[20px] text-white bg-[#080D23] px-[40px] py-[20px] rounded-md sm:text-[18px] md:text-[18px] lg:text-[20px]'>
                                     Where can I buy $MWOR?
                                 </AccordionItemButton>
                             </AccordionItemHeading>
@@ -186,7 +229,7 @@ function LandingPage () {
                         </AccordionItem>
                         <AccordionItem>
                             <AccordionItemHeading>
-                                <AccordionItemButton className='text-[20px] text-white bg-gray-900 px-[40px] py-[20px] rounded-md sm:text-[18px] md:text-[18px] lg:text-[20px]'>
+                                <AccordionItemButton className='text-[20px] text-white bg-[#080D23] px-[40px] py-[20px] rounded-md sm:text-[18px] md:text-[18px] lg:text-[20px]'>
                                     Is $MWOR secure?
                                 </AccordionItemButton>
                             </AccordionItemHeading>
@@ -198,7 +241,7 @@ function LandingPage () {
                         </AccordionItem>
                         <AccordionItem>
                             <AccordionItemHeading>
-                                <AccordionItemButton className='text-[20px] text-white bg-gray-900 px-[40px] py-[20px] rounded-md sm:text-[17px] md:text-[17px] lg:text-[20px]'>
+                                <AccordionItemButton className='text-[20px] text-white bg-[#080D23] px-[40px] py-[20px] rounded-md sm:text-[17px] md:text-[17px] lg:text-[20px]'>
                                     How can I contact the $MWOR team?
                                 </AccordionItemButton>
                             </AccordionItemHeading>
@@ -214,9 +257,9 @@ function LandingPage () {
             <section className='mx-[40px]'>
                 <div className='grid grid-cols-2 gap-4 place-items-center mt-[20px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                     <div className='bg-gray-900 px-[20px] rounded-md'>
-                        <h2 className='mb-[10px] text-green-800 text-[20px] mt-[20px] font-bold text-center'>Maintaining Order For Memes On Solana</h2>
+                        <h2 className='mb-[10px] text-white text-[20px] mt-[20px] font-bold text-center'>Maintaining Order For Memes On Solana</h2>
                         <p className='text-[15px] my-[15px] font-bold text-white text-center'>Perfect order, Real value and Utility, Market takeover</p>
-                        <div className='flex justify-center items-center pb-[35px] pt-[10px] sm:pl-[40px] md:pl-[40px] lg:pl-[70px]'>
+                        <div className='flex justify-center items-center pb-[35px] pt-[30px] sm:pl-[40px] md:pl-[40px] lg:pl-[70px] bg-[#813CAE] rounded-md'>
                             <div className=''>
                                 <a href="https://t.me/memeworldorderchat" target="_blank" rel="noopener noreferrer"><img className='w-[30%] object-contain cursor-pointer rounded-md sm:w-[50%] md:w-[50%] lg:w-[29%] mb-[20px] border-2 border-white' src="/Images/tg.jpg" alt="" /></a>
                                 <a href="http://medium.com/@memeworldorder" target="_blank" rel="noopener noreferrer"><img className='w-[20%] object-contain cursor-pointer sm:w-[50%] md:w-[50%] lg:w-[29%] rounded-md border-2 border-white' src="/Images/medium.jpg" alt="" /></a>
