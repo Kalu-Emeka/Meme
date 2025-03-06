@@ -134,7 +134,7 @@ function LandingPage () {
                     <Tooltip />
                     <Legend />
                 </PieChart>
-                <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[50px] text-[18px]'>TOTAL SUPPLY 1,000,000,000 $MWOR</p>
+                <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[50px] text-[18px] text-center'>TOTAL SUPPLY <br></br> 1,000,000,000 $MWOR</p>
                 <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[20px] text-[18px] text-center mx-[50px]'>TOKEN ADDRESS <br></br> EoRe4xECTe9imaYtwfdmrGoinD2S1 N5yMeu1LrjQpump</p>
                 </div>
             </section>
@@ -171,7 +171,7 @@ function LandingPage () {
                 </div>
             </section>
             <section id="team" className='bg-[#813CAE] flex justify-center  text-white items-center flex-col pb-[50px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
-                <h2 className='text-[#111827] font-bold text-[40px] text-center mt-[50px] mb-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>NFT</h2>
+                <h2 className='text-[#111827] font-bold text-[40px] text-center mt-[50px] mb-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>NFT LAUNCH</h2>
                 <p className='mb-[20px] w-[40%] text-center sm:w-[80%] md:w-[80%] lg:w-[40%]'><span className='text-[20px] text-white'>NFT Release April 10th priceeds</span><br></br>
                     50 % Jackpot giveaways 25 % Treasury 25 % NFT buyback and burn
                 </p>
@@ -191,22 +191,22 @@ function LandingPage () {
                     <div className='flex items-center mx-[50px] w-[50%] flex-col bg-[#080D23] border-8 border-black text-white px-[10px] py-[20px]  sm:mx-[10px] sm:w-[80%] md:w-[80%] lg:w-[50%]'>
                         <h2><span className='ext-[#813CAE] font-bold text-[20px] font-bold'>WHY INVEST IN $MWOR</span> </h2>
                         <div className='flex items-center justify-center mt-[10px]'>
-                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Community-Driven: From meme contests to AMAs, we’re building a movement, not just a token.</p>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Community-Driven: From meme contests to AMAs, we’re building a movement, not just a token.</p>
                         </div>
                         <div className='flex items-center justify-center mt-[10px]'>
-                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Staking Rewards: High APYs and exclusive perks make holding $MWOR irresistible.</p>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Staking Rewards: High APYs and exclusive perks make holding $MWOR irresistible.</p>
                         </div>
                         <div className='flex items-center justify-center mt-[10px]'>
-                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">NFT Value: A unique NFT collection adds a collectible layer with tangible benefits for holders.</p>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">NFT Value: A unique NFT collection adds a collectible layer with tangible benefits for holders.</p>
                         </div>
                         <div className='flex items-center justify-center mt-[10px]'>
-                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]"> Deflationary Edge: Our Buyback & Burn strategy ensures $MWOR becomes scarcer and more valuable over time.</p>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]"> Deflationary Edge: Our Buyback & Burn strategy ensures $MWOR becomes scarcer and more valuable over time.</p>
                         </div>
                         <div className='flex items-center justify-center mt-[10px]'>
-                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Real Utility: From NFTs to merch to ecosystem services, $MWOR is more than a meme it’s a lifestyle.</p>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Real Utility: From NFTs to merch to ecosystem services, $MWOR is more than a meme it’s a lifestyle.</p>
                         </div>
                         <div className='flex items-center justify-center mt-[10px]'>
-                            <p className="text-[15px] font-bold text-center before:content-['•'] before:mr-2 before:text-black before:text-[18px] mt-[20px]">Join us as we launch, promote, and scale $MWOR into a deflationary powerhouse with a killer NFT twist. The meme revolution starts here get in early!</p>
+                            <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Join us as we launch, promote, and scale $MWOR into a deflationary powerhouse with a killer NFT twist. The meme revolution starts here get in early!</p>
                         </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@ function LandingPage () {
                         </div>
                     </div>
                     <div>
-                        <img className='w-[70%] sm:w-[90%] md:w-[90%] lg:w-[70%]' src="/Images/hero.png" alt="" />
+                        <img className='w-[70%] sm:w-[90%] md:w-[90%] lg:w-[70%] border-8 border-black' src="/Images/buy.jpg" alt="" />
                     </div>
                 </div>
             </section>
