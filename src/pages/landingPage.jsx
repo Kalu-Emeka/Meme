@@ -29,7 +29,7 @@ function LandingPage () {
             <section>
                <div className='flex bg-[#813CAE] justify-center items-center pt-[100px] gap-9 mb-[80px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div className='sm:mt-[40px] md:mt-[20px] lg:mt-0 flex flex-col justify-center items-center sm:justify-center md:justify-center lg:justify-center'>
-                        <img className='w-[70%] sm:w-[60%] md:w-[60%] lg:w-[70%] ' src="/Images/logo.png" alt="" />
+                        <img className='w-[70%] sm:w-[60%] md:w-[60%] lg:w-[70%] ' src="/Images/logo.webp" alt="" />
                         <h2 className='text-[#111827] text-[60px] font-bold mb-[10px] sm:text-[50px] md:text-[50px] lg:text-[60px]'>$Mwor</h2>
                         <p className='text-[#111827] font-bold text-[19px] sm:text-[16px] md:text-[16px] lg:text-[19px]'>Meme World Order On Solana</p>
                         <button className='text-[22px] border-4 border-[#111827] rounded-md font-bold bg-green-500 px-[30px] py-[10px] mt-[33px] mb-[90px] sm:text-[17px] md:text-[17px] lg:text[22px]'><a href="#trade">Trade $MWOR</a></button>
@@ -60,8 +60,8 @@ function LandingPage () {
                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px]'>
                         <div className='flex items-center flex-col justify-center px-[20px] py-[30px]'>
                             <div className='flex justify-center items-center mb-[20px]'>
-                                <img className='w-[9%] mr-[10px] border-2 border-white rounded-md' src="/Images/logo.png" alt="" />
-                                <h2 className='font-bold text-[20px] text-center'>ABOUT MEME WORLD ORDER</h2>
+                                <img className='w-[11%] mr-[10px] border-2 border-white rounded-md' src="/Images/logo.webp" alt="" />
+                                <h2 className='font-bold text-[18px] text-center'>ABOUT MEME WORLD ORDER</h2>
                             </div>
                             <p className='text-center'>Meme World Order ($MWOR) is a memedriven cryptocurrency on the Solana
                                 Network, created to deliver a fun,
@@ -74,10 +74,10 @@ function LandingPage () {
                             </p>
                         </div>
                     </div>
-                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px]'>
+                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white pb-[30px]'>
                         <div className='flex items-center flex-col justify-center px-[20px] py-[20px]'>
-                            <div className='flex justify-center items-center mb-[20px]'>
-                                <h2 className='font-bold text-[20px]'>ROBUST INTEGRATION</h2>
+                            <div className='flex justify-center items-center my-[20px]'>
+                                <h2 className='font-bold text-[18px]'>ROBUST INTEGRATION</h2>
                             </div>
                             <p className='text-center'>
                                 $MWOR has established
@@ -86,20 +86,19 @@ function LandingPage () {
                                 ensuring seamless accessibility and
                                 utility for users
                             </p>
-                            <button className='border bg-white text-[#111827] px-[20px] py-[6px] rounded-sm my-[53px]'>FIND MORE</button>
                         </div>
                     </div>
-                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px] px-[40px] sm:px-[60px] md:px-[60px] lg:px-[40px]'>
+                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[5px] px-[40px] sm:px-[60px] md:px-[60px] lg:px-[40px]'>
                         <div className='flex items-center flex-col justify-center px-[20px] py-[20px]'>
                             <div className='flex justify-center flex-col items-center mb-[20px]'>
-                                <h2 className='font-bold text-[20px] mb-[30px]'>$MWOR FACTS</h2>
+                                <h2 className='font-bold text-[18px] mb-[30px]'>$MWOR FACTS</h2>
                                 <ul className='list-disc mb-[20px] text-center'>
                                     <li>LP Locked & Burned</li>
                                     <li>Tax 0% buy & sell</li>
                                     <li> ATH $191k</li>
                                     <li>100m burned with daily of 250k</li>
                                 </ul>
-                                <h2 className='font-bold text-[20px] mb-[20px] text-center'>$MWOR HIGHLIGHTS</h2>
+                                <h2 className='font-bold text-[18px] mb-[20px] text-center'>$MWOR HIGHLIGHTS</h2>
                                 <ul className='list-disc text-center'>
                                     <li>Token utility for daily jackpots</li>
                                     <li>25 % Buyback + Burn</li>
@@ -134,7 +133,7 @@ function LandingPage () {
                     <Tooltip />
                     <Legend />
                 </PieChart>
-                <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[50px] text-[18px] text-center'>TOTAL SUPPLY <br></br> 1,000,000,000 $MWOR</p>
+                <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[50px] text-[18px] text-center w-[77%]'>TOTAL SUPPLY <br></br> 1,000,000,000 $MWOR</p>
                 <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[20px] text-[18px] text-center mx-[50px]'>TOKEN ADDRESS <br></br> EoRe4xECTe9imaYtwfdmrGoinD2S1 N5yMeu1LrjQpump</p>
                 </div>
             </section>
@@ -321,8 +320,8 @@ function LandingPage () {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <img className='w-[70%] sm:w-[90%] md:w-[90%] lg:w-[70%] border-8 border-black' src="/Images/buy.jpg" alt="" />
+                    <div className='flex judtify-center items-center'>
+                        <img className='w-[70%] sm:w-full md:w-full lg:w-[70%] border-8 border-black' src="/Images/buy.jpg" alt="" />
                     </div>
                 </div>
             </section>
