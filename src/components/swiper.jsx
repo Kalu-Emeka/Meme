@@ -109,7 +109,7 @@ function Swipers() {
         <div>
               <div className='flex justify-center'>
                   <div className='flex items-start flex-col mx-[50px] w-[50%] bg-[#382456] text-white px-[10px] py-[20px] rounded-xl sm:w-[80%] md:w-[80%] lg:w-[50%]'>
-                      <h2><span className='text-[20px] text-green-500 font-bold'> PHASE 4:</span> </h2>
+                      <h2><span className='text-[20px] text-green-500 font-bold'> PHASE 4:</span>Listing and Promotions</h2>
                       <div className='flex items-center justify-center mt-[10px]'>
                           <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Ecosystem Enrichment: Continue integrating Rubic (or similar coss-chain solutions) to enhance interoperability and user experience.</p>
                       </div>
