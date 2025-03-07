@@ -116,12 +116,12 @@ function LandingPage () {
                     <h2 className='mb-[20px] text-center mt-[100px] mb-[30px] text-[#111827] font-bold text-[40px] pt-[20px]'>Tokenomics</h2>
                     <p className='text-white font-bold w-[40%] text-center text-[18px] mb-[20px] sm:w-[80%] md:w-[80%] lg:w-[40%]'>MEME WORLD ORDER made One Billion tokens, burnt over 100m and leaving about 900m in circulation.</p>
                 <div className=""> 
-                    <PieChart width={380} height={380}>
+                    <PieChart width={330} height={330}>
                         <Pie
                             data={data}
                             cx="50%"
                             cy="50%"
-                            outerRadius={140}
+                            outerRadius={110}
                             dataKey="value"
                             label
                         >
@@ -138,7 +138,7 @@ function LandingPage () {
             </section>
             <section id="buy" className='px-[50px] pb-[40px]'>
                 <h2 className='text-[#813CAE] mb-[20px] text-center mt-[120px] text-[40px] font-bold sm:text-[35px] md:text-[35px] lg:text-[40px]'>HOW TO BUY</h2>
-                <p className='text-[19px] text-center text-white'>Follow these easy steps to become part of the $MWOR holders</p>
+                <p className='text-[19px] text-center text-white font-bold'>Follow these easy steps to become part of the $MWOR holders</p>
                 <div className='flex items-center justify-center mt-[50px] sm:block md:block lg:flex'>
                     <div className='flex justify-center items-center flex-col mr-[40px] w-[130%] sm:w-[97%] md:w-[97%] lg:w-[130%]'>
                         <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
@@ -153,8 +153,8 @@ function LandingPage () {
                         </div>
                         <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                             <div className='bg-[#080D23] rounded-md px-[20px] py-[20px] mt-[10px]'>
-                                <h2 className='text-white text-[20px] font-bold mb-[20px]'><span className='text-[#813CAE] font-bold text-[20px]'>3.</span> SWAP $SOL FOR $PONKE</h2>
-                                <p className='text-white'>Tap the SWAP icon in your Phantom wallet and paste the $PONKE token address. Swap your $SOL for $MWOR.</p>
+                                <h2 className='text-white text-[20px] font-bold mb-[20px]'><span className='text-[#813CAE] font-bold text-[20px]'>3.</span> SWAP $SOL FOR $MWOR</h2>
+                                <p className='text-white'>Tap the SWAP icon in your Phantom wallet and paste the $MWOR token address. Swap your $SOL for $MWOR.</p>
                             </div>
                             <div className='bg-[#080D23] rounded-md px-[20px] py-[20px] mt-[10px]'>
                                 <h2 className='text-white font-bold mb-[20px] text-[20px]'>4. You are now a $MWOR holder!</h2>
@@ -170,7 +170,7 @@ function LandingPage () {
             </section>
             <section id="nft" className='bg-[#813CAE] flex justify-center  text-white items-center flex-col pb-[50px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
                 <h2 className='text-[#111827] font-bold text-[40px] text-center mt-[50px] mb-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>NFT LAUNCH</h2>
-                <p className='mb-[20px] w-[40%] text-center sm:w-[80%] md:w-[80%] lg:w-[40%]'><span className='text-[20px] text-white'>NFT Release April 10th priceeds</span><br></br>
+                <p className='mb-[20px] w-[40%] font-bold text-center sm:w-[80%] md:w-[80%] lg:w-[40%]'><span className='text-[20px] text-white'>NFT Release April 10th priceeds</span><br></br>
                     50 % Jackpot giveaways 25 % Treasury 25 % NFT buyback and burn
                 </p>
                 <Marquee speed={700}>
