@@ -145,7 +145,7 @@ function LandingPage () {
                         <div className='grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                             <div className='bg-[#080D23] rounded-md px-[30px] py-[30px]'>
                                 <h2 className='text-white text-[20px] font-bold mb-[20px]'><span className='text-[#813CAE] font-bold text-[20px]'>1.</span> CREATE A WALLET WITH PHANTOM</h2>
-                                <p className='text-white'>Visit <span className='text-red-800'><a href="phantom.app" target="_blank" rel="noopener noreferrer"></a>Phantom.app</span> and follow the simple steps to create a new account with the Phantom app or browser extension.</p>
+                                <p className='text-white'>Visit <span className='text-red-800'><a href="phantom.app" target="_blank" rel="noopener noreferrer">Phantom.app</a></span> and follow the simple steps to create a new account with the Phantom app or browser extension.</p>
                             </div>
                             <div className='bg-[#080D23] rounded-md px-[20px] py-[20px]'>
                                 <h2 className='text-white font-bold mb-[20px] text-[20px]'><span className='text-[#813CAE] font-bold text-[20px]'>2.</span> GET SOME $SOL</h2>
