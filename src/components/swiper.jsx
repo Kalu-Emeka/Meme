@@ -14,14 +14,14 @@ function Swipers() {
       }} // Enable pagination dots
       spaceBetween={30} // Space between slides
       slidesPerView={1} // Number of slides visible at a time
-      autoplay={{ delay: 4000 }}
+      autoplay={{ delay: 7000 }}
     >
       <div className='mx-auto'>
         <SwiperSlide>
         <div className=''>
           <div className='flex justify-center'>
               <div className=' mx-[50px] w-[50%] flex items-center flex-col bg-[#382456] text-white px-[10px] py-[20px] rounded-xl sm:mb-[20px] md:mb-[20px] lg:mb-0 sm:w-[80%] md:w-[80%] lg:w-[50%]'>
-                  <h2><span className='text-[20px] text-green-500 font-bold'>PHASE 1: Launch & Community Ignition</span> </h2>
+                  <h2><span className='text-[20px] text-green-500 font-bold'>PHASE 1: LAUNCH & COMMUNITY IGNITION</span> </h2>
                   <div className='flex items-center justify-center mt-[10px]'>
                       <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Official Launch: Deploy $MWOR on the Solana blockchain and unveil the project to the world.</p>
                   </div>
@@ -51,7 +51,7 @@ function Swipers() {
          <div>
               <div className='flex justify-center'>
                   <div className='flex items-center mx-[50px] w-[50%] flex-col bg-[#382456] text-white px-[10px] py-[20px] rounded-xl sm:w-[80%] md:w-[80%] lg:w-[50%]'>
-                        <h2><span className='text-[20px] text-green-500 font-bold'>PHASE 2: Staking Rollout & Ecosystem Foundations</span> </h2>
+                        <h2><span className='text-[20px] text-green-500 font-bold'>PHASE 2: STAKING ROLLOUT & ECOSYSTEM FOUNDATIONS</span> </h2>
                         <div className='flex items-center justify-center'>
                             <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Staking Incentives: Introduce staking with high APYs and boosted early-bird rewards to encourage participation.</p>
                         </div>
@@ -81,7 +81,7 @@ function Swipers() {
         <div>
             <div className='flex justify-center'>
                         <div className='flex items-start flex-col mx-[50px] w-[50%] bg-[#382456] text-white px-[10px] py-[20px] rounded-xl sm:mb-[20px] md:mb-[20px] lg:mb-0 sm:w-[80%] md:w-[80%] lg:w-[50%]'>
-                            <h2><span className='text-[20px] text-green-500 font-bold'>PHASE 3: Heavy Promotion, NFTs & Deflationary Mechanics</span> </h2>
+                            <h2><span className='text-[20px] text-green-500 font-bold'>PHASE 3: HEAVY PROMOTION, NFTs & DEFLATIONARY MECHANICS</span> </h2>
                             <div className='flex items-center justify-center mt-[10px]'>
                                 <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Viral Campaigns: Launch meme challenges and community-created content competitions on X to boost $MWOR’s cultural footprint.</p>
                             </div>
@@ -109,7 +109,7 @@ function Swipers() {
         <div>
               <div className='flex justify-center'>
                   <div className='flex items-start flex-col mx-[50px] w-[50%] bg-[#382456] text-white px-[10px] py-[20px] rounded-xl sm:w-[80%] md:w-[80%] lg:w-[50%]'>
-                      <h2><span className='text-[20px] text-green-500 font-bold'> PHASE 4:</span>Listing and Promotions</h2>
+                      <h2><span className='text-[20px] text-green-500 font-bold'> PHASE 4: LISTING AND PROMOTIONS</span></h2>
                       <div className='flex items-center justify-center mt-[10px]'>
                           <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Ecosystem Enrichment: Continue integrating Rubic (or similar coss-chain solutions) to enhance interoperability and user experience.</p>
                       </div>
@@ -127,7 +127,7 @@ function Swipers() {
         <div>
               <div className='flex justify-center'>
                   <div className='flex items-start flex-col w-[50%] mx-[50px] bg-[#382456] text-white px-[10px] py-[20px] rounded-xl sm:mb-[20px] md:mb-[20px] lg:mb-0 sm:w-[80%] md:w-[80%] lg:w-[50%]'>
-                      <h2><span className='text-[20px] text-green-500 font-bold'>PHASE 5: Global Expansion & Merch Empire</span> </h2>
+                      <h2><span className='text-[20px] text-green-500 font-bold'>PHASE 5: GLOBAL EXPANSION & MERCH EMPIRE</span> </h2>
                       <div className='flex items-center justify-center mt-[10px]'>
                           <p className="text-[15px] font-bold before:content-['•'] before:mr-2 before:text-white before:text-[18px] mt-[20px]">Exclusive Merch Drop: Launch a slick $MWOR merchandise line—think t-shirts, hoodies, and mugs that fans will love.</p>
                       </div>
