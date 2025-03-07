@@ -60,8 +60,7 @@ function LandingPage () {
                    <div className='border-8 rounded-md bg-[#161e2e] border-[#111827] text-white mt-[40px]'>
                         <div className='flex items-center flex-col justify-center px-[20px] py-[30px]'>
                             <div className='flex justify-center items-center mb-[20px]'>
-                                <img className='w-[11%] mr-[10px] border-2 border-white rounded-md' src="/Images/logo.webp" alt="" />
-                                <h2 className='font-bold text-[18px] text-center w-[90%]'>ABOUT MEME WORLD ORDER</h2>
+                                <h2 className='font-bold text-[18px]'>ABOUT MEME WORLD ORDER</h2>
                             </div>
                             <p className='text-center'>Meme World Order ($MWOR) is a memedriven cryptocurrency on the Solana
                                 Network, created to deliver a fun,
@@ -114,30 +113,30 @@ function LandingPage () {
                 <Swipers/>
             </section>
             <section id='tokenomics' className='bg-[#813CAE] flex justify-center items-center flex-col pb-[50px]'>
-                <h2 className='mb-[20px] text-center mt-[100px] mb-[30px] text-[#111827] font-bold text-[40px] pt-[20px]'>Tokenomics</h2>
-                <p className='text-white font-bold w-[40%] text-center text-[18px] mb-[20px] sm:w-[80%] md:w-[80%] lg:w-[40%]'>MEME WORLD ORDER made One Billion tokens, burnt over 100m and leaving about 900m in circulation.</p>
-                <div className="rounded-lg flex justify-center items-center flex-col">
-                <PieChart width={450} height={450}>
-                    <Pie
-                        data={data}
-                        cx="50%"
-                        cy="50%"
-                        outerRadius={140}
-                        dataKey="value"
-                        label
-                    >
-                        {data.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={entry.color} />
-                        ))}
-                    </Pie>
-                    <Tooltip />
-                    <Legend />
-                </PieChart>
+                    <h2 className='mb-[20px] text-center mt-[100px] mb-[30px] text-[#111827] font-bold text-[40px] pt-[20px]'>Tokenomics</h2>
+                    <p className='text-white font-bold w-[40%] text-center text-[18px] mb-[20px] sm:w-[80%] md:w-[80%] lg:w-[40%]'>MEME WORLD ORDER made One Billion tokens, burnt over 100m and leaving about 900m in circulation.</p>
+                <div className=""> 
+                    <PieChart width={380} height={380}>
+                        <Pie
+                            data={data}
+                            cx="50%"
+                            cy="50%"
+                            outerRadius={140}
+                            dataKey="value"
+                            label
+                        >
+                            {data.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={entry.color} />
+                            ))}
+                        </Pie>
+                        <Tooltip />
+                        <Legend />
+                    </PieChart>
+                </div>
                 <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[50px] text-[18px] text-center w-[77%]'>TOTAL SUPPLY <br></br> 1,000,000,000 $MWOR</p>
                 <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[20px] text-[18px] text-center mx-[50px]'>TOKEN ADDRESS <br></br> EoRe4xECTe9imaYtwfdmrGoinD2S1 N5yMeu1LrjQpump</p>
-                </div>
             </section>
-            <section id="buy" className='px-[50px] pb-[40px]'  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+            <section id="buy" className='px-[50px] pb-[40px]'>
                 <h2 className='text-[#813CAE] mb-[20px] text-center mt-[120px] text-[40px] font-bold sm:text-[35px] md:text-[35px] lg:text-[40px]'>HOW TO BUY</h2>
                 <p className='text-[19px] text-center text-white'>Follow these easy steps to become part of the $MWOR holders</p>
                 <div className='flex items-center justify-center mt-[50px] sm:block md:block lg:flex'>
@@ -169,7 +168,7 @@ function LandingPage () {
                     </div>
                 </div>
             </section>
-            <section id="team" className='bg-[#813CAE] flex justify-center  text-white items-center flex-col pb-[50px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+            <section id="nft" className='bg-[#813CAE] flex justify-center  text-white items-center flex-col pb-[50px]' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
                 <h2 className='text-[#111827] font-bold text-[40px] text-center mt-[50px] mb-[30px] sm:text-[35px] md:text-[35px] lg:text-[40px]'>NFT LAUNCH</h2>
                 <p className='mb-[20px] w-[40%] text-center sm:w-[80%] md:w-[80%] lg:w-[40%]'><span className='text-[20px] text-white'>NFT Release April 10th priceeds</span><br></br>
                     50 % Jackpot giveaways 25 % Treasury 25 % NFT buyback and burn
