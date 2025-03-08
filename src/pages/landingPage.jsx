@@ -161,7 +161,7 @@ function LandingPage () {
                                 <p className='text-white'>Welcome to the #MWOR Community.</p>
                             </div>
                         </div>
-                        <button className='border bg-white text-[#111827] px-[20px] py-[6px] rounded-sm my-[53px] font-bold'><a href="https://jup.ag/swap/SOL-EoRe4xECTe9imaYtwfdmrGoinD2S1N5yMeu1LrjQpump" target="_blank" rel="noopener noreferrer">Buy $MWOR here</a></button>
+                        <button className='border bg-white text-[#111827] px-[20px] py-[6px] rounded-sm my-[53px] font-bold animate-bounce'><a href="https://jup.ag/swap/SOL-EoRe4xECTe9imaYtwfdmrGoinD2S1N5yMeu1LrjQpump" target="_blank" rel="noopener noreferrer">Buy $MWOR here</a></button>
                     </div>
                     <div className='rounded-lg sm:mt-[30px] md:mt-[30px] lg:mt-0'>
                         <img className='' src="/Images/hero.png" alt="" />
@@ -173,7 +173,7 @@ function LandingPage () {
                 <p className='mb-[20px] w-[40%] font-bold text-center sm:w-[80%] md:w-[80%] lg:w-[40%]'><span className='text-[20px] text-white'>NFT Release April 10th priceeds</span><br></br>
                     50 % Jackpot giveaways 25 % Treasury 25 % NFT buyback and burn
                 </p>
-                <Marquee speed={700}>
+                <Marquee speed={2500}>
                     <img className='w-[20%]' src="/Images/n0.png" alt="" />
                     <img className='w-[20%]' src="/Images/n1.png" alt="" />
                     <img className='w-[20%]' src="/Images/n2.png" alt="" />

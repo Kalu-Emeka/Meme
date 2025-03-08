@@ -25,7 +25,7 @@ function NavBar () {
                            {!nav ? <img className="cursor-pointer" src="/Images/menu.png" alt=""/> : <img className="cursor-pointer" src="/Images/close.png" alt=""/>}
                         </div> */}
                     </div>
-                    <ul className="flex justify-center items-center text-white sm:w-[90%] md:w-[90%] lg:w-[20%]">
+                    <ul className="flex justify-center items-center ml-[80px] text-white sm:w-[90%] md:w-[90%] lg:w-[20%]">
                         <li className='border-2 rounded-sm bg-[#111827] px-[30px] py-[10px] sm:px-[15px] md:px-[15px] lg:px-[30px] sm:text-[14px] md:text-[14px] lg:text-[16px]'>White paper </li>
                     </ul>
                     {/* <div className={!nav ? 'fixed left-[-100%]' : 'fixed left-0 top-0 w-[40%] text-black mt-[76px] h-full bg-gray-800 text-white shadow-md ease-in-out duration-500 sm:w-[60%] md:w-[40%] lg:hidden'}>
