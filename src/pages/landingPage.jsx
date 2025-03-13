@@ -25,7 +25,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 function LandingPage () {
     return (
         <>
-            {/* <Navbar/>
+            <Navbar/>
             <section>
                <div className='flex bg-[#813CAE] justify-center items-center pt-[100px] gap-9 mb-[80px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div className='sm:mt-[40px] md:mt-[20px] lg:mt-0 flex flex-col justify-center items-center sm:justify-center md:justify-center lg:justify-center'>
@@ -133,7 +133,7 @@ function LandingPage () {
                         <Legend />
                     </PieChart>
                 </div>
-                <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[50px] text-[18px] text-center w-[77%]'>TOTAL SUPPLY <br></br> 1,000,000,000 $MWOR</p>
+                <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[50px] text-[18px] text-center sm:w-[77%] md:w-[77%] lg:w-[36%]'>TOTAL SUPPLY <br></br> 1,000,000,000 $MWOR</p>
                 <p className='text-[#813CAE] bg-[#111827] rounded-sm px-[10px] py-[20px] mt-[20px] text-[18px] text-center mx-[50px]'>TOKEN ADDRESS <br></br> EoRe4xECTe9imaYtwfdmrGoinD2S1 N5yMeu1LrjQpump</p>
             </section>
             <section id="buy" className='px-[50px] pb-[40px]'>
@@ -173,7 +173,7 @@ function LandingPage () {
                 <p className='mb-[20px] w-[40%] font-bold text-center sm:w-[80%] md:w-[80%] lg:w-[40%]'><span className='text-[20px] text-white'>NFT Release April 10th priceeds</span><br></br>
                     50 % Jackpot giveaways 25 % Treasury 25 % NFT buyback and burn
                 </p>
-                <Marquee speed={2500}>
+                <Marquee speed={1500}>
                     <img className='w-[20%]' src="/Images/n0.png" alt="" />
                     <img className='w-[20%]' src="/Images/n1.png" alt="" />
                     <img className='w-[20%]' src="/Images/n2.png" alt="" />
@@ -326,9 +326,6 @@ function LandingPage () {
             </section>
             <div className='flex justify-center items-center bg-gray-800 py-[15px] text-white mt-[20px]'>
                 <p className=''>© 2025 Meme World Order. All rights reserved.</p>
-            </div> */}
-            <div>
-                <h2 className='text-white text-center text-[20px] mt-[50px]'>Needs to re-push the website</h2>
             </div>
         </>
     )
