@@ -25,7 +25,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 function LandingPage () {
     return (
         <>
-            {/* <Navbar/>
+            <Navbar/>
             <section>
                <div className='flex bg-[#813CAE] justify-center items-center pt-[100px] gap-9 mb-[80px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div className='sm:mt-[40px] md:mt-[20px] lg:mt-0 flex flex-col justify-center items-center sm:justify-center md:justify-center lg:justify-center'>
@@ -326,9 +326,6 @@ function LandingPage () {
             </section>
             <div className='flex justify-center items-center bg-gray-800 py-[15px] text-white mt-[20px]'>
                 <p className=''>© 2025 Meme World Order. All rights reserved.</p>
-            </div> */}
-            <div>
-                <p className='text-white text-center mt-[20px] text-[20px]'>Needs to repush</p>
             </div>
         </>
     )
